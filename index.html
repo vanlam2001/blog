@@ -1,6 +1,478 @@
+
+<!doctype html>
+
 <html>
-  <head>
-<script>
-window.location.replace("https://twitter.com/seath3pr0");
-</script>
-    <html>
+
+<head>
+
+    <meta charset="utf-8">
+    <!--
+mod.gov.sy was seized for the people by Poppy :)
+Support the fight vs oppressive regimes in #operationfreedom @ irc.anonops.li
+
+Props to the hundreds of Syrians that had mailed this server with messages of
+protest over the past year. You're admirably, recklessly brave!
+-->
+    <script type="text/javascript">
+        function scrollvids(a) {
+            vidoffs -= a;
+            var b = video_divs.length;
+            var c = b * 200;
+            if (c < sw) return;
+            posmod(vidoffs, c);
+            for (var d = 0; d < b; d++) {
+                var e = video_divs[d];
+                var f = Math.round(posmod(d * 200 - vidoffs, c) - 200);
+                if (f <= -200 || f >= sw) {
+                    e.style.display = "none"
+                } else {
+                    e.style.left = f + "px";
+                    e.style.display = "block"
+                }
+            }
+        }
+
+        function posmod(a, b) {
+            return (a % b + b) % b
+        }
+
+        function addvids() {
+            for (var a = 0; a < vidtable.length; a++) {
+                var b = vidtable[a];
+                var c = addvid(b[0], b[1], b[2], b[3]);
+                video_divs.push(c);
+                if (a * 200 < sw) preload([b[1]])
+            }
+        }
+
+        function addvid(a, b, c, d) {
+            var e = document.createElement("DIV");
+            e.className = "video";
+            e.style.backgroundImage = "url(thumbs/" + b + ")";
+            var f = document.createElement("DIV");
+            f.className = "vidcaption";
+            f.appendChild(document.createTextNode(c));
+            f.style.visibility = "hidden";
+            e.appendChild(f);
+            e.display = "none";
+            videos.appendChild(e);
+            setOpacity(e, .75);
+            addListener(e, "mouseover", function(a) {
+                OVER = true;
+                f.style.visibility = "visible";
+                setOpacity(e, 1)
+            }, false);
+            addListener(e, "mouseout", function(a) {
+                OVER = false;
+                f.style.visibility = "hidden";
+                setOpacity(e, .75)
+            }, false);
+            addListener(e, "click", function(b) {
+                window.open(a, +"w" + Math.random())
+            }, false);
+            return e
+        }
+
+        function addListener(a, b, c) {
+            if (a.addEventListener) a.addEventListener(b, c, false);
+            else a.attachEvent("on" + b, c)
+        }
+
+        function pump(a, b) {
+            function c() {
+                if (a() === true) clearInterval(d)
+            }
+            if (b === undefined) b = 30;
+            var d = setInterval(c, b)
+        }
+
+        function showvids() {
+            function f() {
+                OVER = false
+            }
+
+            function e() {
+                OVER = true
+            }
+
+            function d() {
+                a += .1;
+                setOpacity(videos, a);
+                setOpacity(footer, a);
+                setOpacity(c, a);
+                setOpacity(b, a);
+                if (a >= 1) {
+                    return true
+                }
+            }
+            var a = 0;
+            videos.style.display = "block";
+            videos.style.visibility = "visible";
+            footer = document.getElementById("footer");
+            footer.style.display = "block";
+            var b = document.getElementById("scrollr");
+            var c = document.getElementById("scrolll");
+            c.style.visibility = "visible";
+            b.style.visibility = "visible";
+            addListener(b, "click", function() {
+                scrollvids(-400)
+            });
+            addListener(c, "click", function() {
+                scrollvids(400)
+            });
+            addListener(b, "mouseover", e);
+            addListener(b, "mouseout", f);
+            addListener(c, "mouseover", e);
+            addListener(c, "mouseout", f);
+            d();
+            pump(d, 30);
+            scrollvids(0);
+            setInterval(function() {
+                if (!OVER) scrollvids(-1)
+            }, 50);
+            document.title = txtttl
+        }
+
+        function sign() {
+            var a = echo(" - SRS", 1.2);
+            var b = echo(" - جنود الثورة السورية", 1.6);
+            con_e.insertBefore(a, cursor_e.elem);
+            con_a.insertBefore(b, cursor_a.elem);
+            setTimeout(function() {
+                cursor_e.destroy();
+                cursor_e = null;
+                cursor_a.destroy();
+                cursor_a = null;
+                setTimeout(showvids, 1e3)
+            }, 3e3)
+        }
+
+        function edone() {
+            if (++_donecnt == 2) setTimeout(sign, 1e3)
+        }
+
+        function adone() {
+            if (++_donecnt == 2) setTimeout(sign, 1e3)
+        }
+
+        function dotext2() {
+            var a = echo(txten2, 1, edone);
+            var b = echo(txtab2, 1.5, adone);
+            con_e.insertBefore(document.createElement("br"), cursor_e.elem);
+            con_a.insertBefore(document.createElement("br"), cursor_a.elem);
+            con_e.insertBefore(a, cursor_e.elem);
+            con_a.insertBefore(b, cursor_a.elem);
+            reshape()
+        }
+
+        function dotext2sync() {
+            if (++dotext2sync_cnt == 2) setTimeout(dotext2, 2e3)
+        }
+
+        function dotext1() {
+            var a = echo(txten1, 1, dotext2sync);
+            var b = echo(txtab1, 1.3, dotext2sync);
+            con_e.insertBefore(a, cursor_e.elem);
+            con_a.insertBefore(b, cursor_a.elem);
+            reshape()
+        }
+
+        function makecursors() {
+            cursor_e = new cursor(6, 11);
+            con_e.appendChild(cursor_e.elem);
+            cursor_a = new cursor(6, 11);
+            con_a.appendChild(cursor_a.elem)
+        }
+
+        function begin() {
+            reshape();
+            window.scrollTop = 0;
+            setvis(flag, true);
+            var a = 0;
+            var b = 0;
+            var c = 0;
+            window.setTimeout(function() {
+                setvis(fblack, true)
+            }, 3e3);
+            setTimeout(function() {
+                setvis(fwhite, true)
+            }, 4e3);
+            setTimeout(function() {
+                setvis(fgreen, true)
+            }, 5e3);
+            setTimeout(function() {
+                setvis(starr, true)
+            }, 6e3);
+            setTimeout(function() {
+                setvis(starl, true)
+            }, 7e3);
+            setTimeout(function() {
+                setvis(anon, true)
+            }, 9e3);
+            setTimeout(makecursors, 13e3);
+            setTimeout(dotext1, 18e3);
+            addvids()
+        }
+
+        function setvis(a, b) {
+            a.style.visibility = b ? "visible" : "hidden"
+        }
+
+        function _onload() {
+            flag = document.getElementById("flag");
+            con_e = document.getElementById("console1");
+            con_a = document.getElementById("console2");
+            starr = document.getElementById("starr");
+            starl = document.getElementById("starl");
+            anon = document.getElementById("anon");
+            fgreen = document.getElementById("fgreen");
+            fwhite = document.getElementById("fwhite");
+            fblack = document.getElementById("fblack");
+            videos = document.getElementById("videos");
+            footer = document.getElementById("footer");
+            preload(["srs3.png", "srs2.png", "redstar.gif"], begin)
+        }
+
+        function flashCursor(a) {
+            function b() {
+                var d = a.elem;
+                var e = getX(d);
+                d.style.visibility = ++c & 1 && e == b.lastx ? "hidden" : "visible";
+                b.lastx = getX(d)
+            }
+            var c = 0;
+            b.lastx = 0;
+            return setInterval(b, 300)
+        }
+
+        function getX(a) {
+            if (!a.offsetParent) return 0;
+            return a.offsetLeft
+        }
+
+        function cursor(a, b) {
+            if (IE) this.elem = document.createElement("IMG");
+            else {
+                this.elem = document.createElement("DIV");
+                this.elem.className = "inlineblock"
+            }
+            var c = this.elem.style;
+            c.background = "white";
+            c.visibility = "visible";
+            c.width = a + "px";
+            c.height = b + "px";
+            this.interval = flashCursor(this);
+            this.destroy = function() {
+                clearInterval(this.interval);
+                if (this.elem.parentNode) this.elem.parentNode.removeChild(this.elem)
+            }
+        }
+
+        function reshape() {
+            if (!window.flag) return;
+            if (typeof window.innerWidth == "number") {
+                sw = window.innerWidth;
+                sh = window.innerHeight
+            } else if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+                sw = document.documentElement.clientWidth;
+                sh = document.documentElement.clientHeight
+            } else if (document.body && (document.body.clientWidth || document.body.clientHeight)) {
+                sw = document.body.clientWidth;
+                sh = document.body.clientHeight
+            }
+            var a = fwhite.offsetHeight;
+            var b = starr.height;
+            starr.style.top = Math.round(a / 2 - b / 2) + "px";
+            starl.style.top = Math.round(a / 2 - b / 2) + "px";
+            starl.style.left = Math.round((a - b) / 2) + "px";
+            starr.style.right = Math.round((a - b) / 2) + "px";
+            anon.style.top = Math.round(a / 2 - 210) + "px";
+            var c = sw * sh;
+            var d = c > 1024 * 560 ? 12 : 11;
+            if (c > 1280 * 710) d = 14;
+            fblack.style.fontSize = d + "px";
+            if (cursor_e) {
+                cursor_e.elem.style.height = d - 2 + "px"
+            }
+            if (cursor_a) {
+                cursor_a.elem.style.height = d - 2 + "px"
+            }
+        }
+
+        function setOpacity(a, b) {
+            if (b > 1) b = 1;
+            if (b < 0) b = 0;
+            if (IE) a.style.filter = "alpha(opacity=" + Math.round(b * 100) + ")";
+            else a.style.opacity = b
+        }
+
+        function echo(a, b, c) {
+            function f() {
+                var b = a.charAt(e);
+                if (b != "|") d.data += b;
+                var g = 20;
+                if (b == "|") g = 800;
+                if (a.charAt(e) == " ") g += 32;
+                if (a.charAt(e) == ",") g += 270;
+                if (a.charAt(e) == ".") g += 650;
+                if (e++ < a.length) setTimeout(f, Math.ceil(g));
+                else if (c) c()
+            }
+            var d = document.createTextNode("");
+            var e = 0;
+            f();
+            return d
+        }
+
+        function preload(a, b) {
+            function f() {
+                if (++d >= e && b) b()
+            }
+            var c = [];
+            var d = 0;
+            var e = a.length;
+            for (var g = 0; g < e; g++) {
+                var h = document.createElement("IMG");
+                addListener(h, "load", f);
+                preloads.push(h);
+                h.src = a[g]
+            }
+        }
+        var IE = !window.addEventListener;
+        var preloads = [];
+        var sw = 0,
+            sh = 0,
+            cursor_e = null,
+            cursor_a = null;
+        var flag, starr, starl, anon, fgreen, fwhite, fblack, videos, footer;
+        OVER = false;
+        var txtttl = "Hacked by SRS | تم الاختراق من قبل جنود الثورة السورية";
+        var txten1 = "To the Lebanese people: SRS stands with you against the brutal regime of Michel Aoun and his militias. tyrants use violence because they have nothing else, and the more violent they are, the more fragile they become. We salute your determination to be non-violent in the face of the regime's brutality, and admire your willingness to pursue justice, not mere revenge. All tyrants will fall, and thanks to your bravery, Michel’s regime and his militias are next. To anyone who are subjected to racism or violence or violation of rights in Lebanon! Remember these people do not represent Lebanese people in any way.";
+        var txten2 = "To the Lebanese military: You are responsible for protecting the Lebanese people, not protecting Michel Aoun and his regime. Defend your country - rise up against the regime!";
+        var txtab1 = "رسالة إلى الشعب اللبناني: جنود الثورة السورية تقف معكم ضد نظام عون واعلامه المظلل. الطغاة يستخدمون العنف لأن ليس لديهم أي شيء آخر، وكلما زاد عنفهم، كلما أكثر هشاشة اصبحوا.نحيي تصميمكم على أن تكملوا ثورتكم السلمية في مواجهة هذا النظام الوحشي المظلل. وبفضل شجاعتكم حزب الله هو التالي. والى كل من يتعرض إلى عنصرية او الى العنف او انتهاك حقوق اخوتكم السوريين في لبنان هوا لا يمثل الشعب اللبناني بأي صلة.";
+        var txtab2 = "إلى الجيش اللبناني: أنت مسؤول عن حماية الشعب اللبناني. وليس حماية الطغاة. دافعوا عن بلدكم - انتفضو ضد النظام.";
+        var dotext2sync_cnt = 0;
+        var _donecnt = 0;
+        vidoffs = 0;
+        vidtable = [
+            ["http://www.zone-h.org/mirror/id/32166512", "alhaririairportlb.jpg", "اختراق مطار رفيق الحريري الرسمي", ""],
+            ["http://www.zone-h.org/mirror/id/32164899", "energyandwaterlb.jpg", "اختراق وزارة الطاقة والمياه اللبنانية", ""],
+            ["http://www.zone-h.org/mirror/id/33233012", "unlb.jpg", "اختراق هيئة الامم المتحدة في لبنان", ""],
+            ["http://www.zone-h.org/mirror/id/24524232", "aljadeedtvlb.jpg", "اختراق موقع قناة الجديد اللبناني", ""],
+            ["http://www.zone-h.org/mirror/id/33163400", "justicelb.jpg", "اختراق وزارة العدل اللبنانية", ""],
+            ["http://www.zone-h.org/mirror/id/28851196", "rtvsy.jpg", "اختراق موقع الهيئة العامة للإذاعة والتلفزيون السوري ", ""],
+            ["http://www.zone-h.org/mirror/id/22405183", "kinghusseinjo.jpg", "اختراق موقع الملك حسين الاردني"],
+            ["http://www.zone-h.org/mirror/id/31094574", "moedsy.jpg", "اختراق وزارة التربية والتعليم السورية", ""],
+            ["http://www.zone-h.org/mirror/id/27383093", "alikhbariyasy.jpg", "اختراق موقع القناة السورية الأخبارية", ""],
+            ["http://www.zone-h.org/mirror/id/22573016", "unjo.jpg", "اختراق هيئة الامم المتحدة الأردنية", ""],
+        ];
+        video_divs = [];
+        displayed_videos = [];
+        addListener(window, "load", _onload, false);
+        addListener(window, "resize", reshape, false)
+    </script>
+    <style type="text/css">
+        html,
+        body {
+            background: #f0f1f0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        #videos {
+            position: relative;
+            width: 4000px;
+            height: 100%;
+            text-align: left;
+            vertical-align: top;
+        }
+        
+        .video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 136px;
+            margin: 0;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        
+        .vidcaption {
+            margin: 0;
+            font-family: sans-serif;
+            font-size: 13px;
+            background: black;
+            color: white;
+        }
+        
+        .scrollbtn {
+            cursor: pointer;
+            position: absolute;
+            top: 0;
+            width: 24px;
+            height: 136px;
+        }
+        
+        .inlineblock {
+            display: -moz-inline-stack;
+            display: inline-block;
+        }
+        
+        #footer a {
+            font-family: sans-serif;
+            color: #ccc;
+            text-decoration: none;
+        }
+        
+        #footer a:hover {
+            font-family: sans-serif;
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+    <title>Hacked by SRS</title>
+</head>
+
+<body>
+    
+    <noscript>
+        <h1 style="text-align: center; font-family: sans-serif">Sorry!</h1>
+        <h2 style="font-size: 12pt;text-align:center; font-family:sans-serif">But this site needs JavaScript enabled.</h2></noscript>
+    <div id="flag" style="visibility: hidden; position: absolute; top: 0; left: 0; z-index:20; width: 100%; height: 100%; overflow: hidden; font-family: monospace; font-size: 12px; min-width: 800px; min-height: 650px; text-align: center">
+        <div id="fgreen" style="visibility: hidden; background:#007a3d; position: absolute; top:0; left:0; width: 100%; height: 25%; color: white; text-align: left; font-family: sans-serif;">
+            <div id="videos" style="visibility: hidden; display: none; position: absolute;"></div>
+            <div id="fader" style="width: 100%; height:8px; background: url('fader.png'); position: absolute; top: 128px; left: 0;"></div>
+            <div id="scrolll" class="scrollbtn" style="visibility: hidden; background: url('faderl.png'); left: 0;"></div>
+            <div id="scrollr" class="scrollbtn" style="visibility: hidden; background: url('faderr.png'); right: 0;"></div>
+        </div>
+        <div id="fwhite" style="visibility: hidden; background:white; width: 100%; height: 40%; color: black; position: absolute; z-index:10; top: 25%; left: 0;">
+            <img src="redstar.gif" id="starl" style="visibility: hidden; position: absolute;">
+            <img src="srs2.png" id="anon" style="visibility: hidden; position: relative;">
+            <img src="redstar.gif" id="starr" style="visibility: hidden; position: absolute;">
+        </div>
+        <div id="fblack" style="visibility: hidden; position: absolute; bottom: 0; left: 0; background:black; width: 100%; height: 36%; color: white;">
+            <div id="console1" style="position: absolute; top:12px; left: 4px; width: 49%; text-align: left;"></div>
+            <div id="console2" style="position: absolute; direction: rtl; top:12px; right: 4px; width: 49%; text-align: right; white-space: pre-wrap;"></div>
+            <div id="footer" style="display: none; width: 100%; color: #665; position: absolute; left: 0; bottom: 5px; text-align: center; font-size:10px;">| 
+                <a href="https://www.twitter.com/OFFICIAL_SRS1">Twitter</a> |
+                <a href="http://www.facebook.com/OFFICIAL5RS">Facebook</a> |
+                <a href="http://www.youtube.com/#">YouTube</a> |
+                <br>
+                <a href="https://twitter.com/H3xo0r">@H3x0r</a> |
+                <a href="https://www.twitter.com/#">@Drupal Syriano</a> |
+                <a href="http://www.twitter.com/DxSHA6H">@Dr.SHA6H</a> |
+                <a href="#">@Dr.MwNs</a> |
+                <a href="https://www.twitter.com/#">#SRS</a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <script type="text/javascript">
+            var sc_project = 7114277;
+            var sc_invisible = 1;
+            var sc_security = "3a50e6d8";
+        </script>
+        <script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script>
+    </div></body></html>
