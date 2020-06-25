@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
       {
         onClickLink: 'https://twitter.com/SEATh3Pr0',
         imgageSource: 'https://www7.0zz0.com/2020/06/25/14/715279580.png',
-        title: ' Th3 Pr0 (The Pro) Lãnh đạo Cục Điều hành Đặc biệt,  một số thành tựu của ông: hack Đại học Harvard, Marines, Blogs skype, google qa, Forbes .  '
+        title: ' Th3 Pr0 (The Pro) Lãnh đạo Cục Điều Hành Đặc biệt,  một số thành tựu của ông: Hack Đại Học Harvard, Marines, Blogs skype, Google qa, Forbes .  '
       },
       {
         onClickLink: 'https://twitter.com/Th3Shad0w_SEA',
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
       {
         onClickLink: 'https://twitter.com/Vict0rSEA',
         imgageSource: 'https://pbs.twimg.com/profile_banners/1633632745/1375211080/1500x500',
-        title: ' Một chàng trai trẻ gia nhập quân đội điện tử Syria kể từ khi thành lập với tư cách là lập trình viên. Anh ta cũng thiết kế và lập trình tất cả các trang web của SEA '
+        title: ' Một chàng trai trẻ gia nhập quân đội điện tử Syria kể từ khi thành lập với tư cách là lập trình viên. Anh ta  thiết kế và lập trình tất cả các trang web của SEA '
       },
       {
         onClickLink: 'https://twitter.com/sea_the_soul',
