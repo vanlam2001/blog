@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
       {
         onClickLink: 'https://youtu.be/Oh-POU60WzY',
         imgageSource: 'https://news-cdn.softpedia.com/images/news2/Harvard-Website-Hacked-by-Th3Pro-2.jpg',
-        title: ' Trang web  University Harvard Harvard bị hack bở th3pr0 (The Pro) Syrian Electronic Army (SEA) (27-09-2011)'
+        title: ' Trang web  University Harvard  bị hack bở th3pr0 (The Pro) Syrian Electronic Army (SEA) (27-09-2011)'
     },
       {
         onClickLink: 'https://youtu.be/KfaXHHeoz7o',
