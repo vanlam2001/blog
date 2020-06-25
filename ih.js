@@ -9,12 +9,12 @@ document.addEventListener("DOMContentLoaded", function() {
       {
         onClickLink: 'https://youtu.be/9zd9XqwXbWQ',
         imgageSource: 'https://scontent.fsgn6-1.fna.fbcdn.net/v/t31.0-8/1262509_1376379452597724_947727758_o.jpg?_nc_cat=107&_nc_sid=dd9801&_nc_ohc=heP1S-LxMO8AX-L6ZeG&_nc_ht=scontent.fsgn6-1.fna&oh=101684eb98b3e22499138c08ba559dc4&oe=5F18D5CA',
-        title: 'Một trong những bước đột phá của điện tử quân đội Syria (The Shadow)'
+        title: 'Một trong những bước đột phá của Syrian Electronic Army (The Shadow)'
       },
       {
         onClickLink: 'https://youtu.be/Oh-POU60WzY',
         imgageSource: 'https://news-cdn.softpedia.com/images/news2/Harvard-Website-Hacked-by-Th3Pro-2.jpg',
-        title: ' Trang web  University Harvard  bị hack bở th3pr0 (The Pro) Syrian Electronic Army (SEA) (27-09-2011)'
+        title: ' Trang web Harvard University  bị hack bởi th3pr0 (The Pro) Syrian Electronic Army (SEA) (27-09-2011)'
     },
       {
         onClickLink: 'https://youtu.be/KfaXHHeoz7o',
