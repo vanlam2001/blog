@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
       {
         onClickLink: 'https://youtu.be/n8e2DIoQSwI',
         imgageSource: 'https://syrianfreepress.files.wordpress.com/2013/11/syrian-electronic-army-20131130.jpg',
-        title: 'Interwiew Syrian Electronic Army, The first in person interview with the most powerful hacking organisation in the world '
+        title: 'Interwiew Syrian Electronic Army, Cuộc phỏng vấn trực tiếp đầu tiên với Đội Quân Điện Tử Syria'
       },
       {
         onClickLink: 'https://youtu.be/9zd9XqwXbWQ',
