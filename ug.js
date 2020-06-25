@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
       {
         onClickLink: 'https://twitter.com/Vict0rSEA',
         imgageSource: 'https://pbs.twimg.com/profile_banners/1633632745/1375211080/1500x500',
-        title: ' Một chàng trai trẻ gia nhập quân đội điện tử Syria kể từ khi thành lập với tư cách là lập trình viên. Anh ta cũng thiết kế và lập trình tất cả các trang web của quân đội Syria trực tuyến. (sea.sy) '
+        title: ' Một chàng trai trẻ gia nhập quân đội điện tử Syria kể từ khi thành lập với tư cách là lập trình viên. Anh ta cũng thiết kế và lập trình tất cả các trang web của SEA '
       },
       {
         onClickLink: 'https://twitter.com/sea_the_soul',
