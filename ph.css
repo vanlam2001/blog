@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous');
+$outerHW: 500px;
+$hubHW: 30px;
+$hH: 20px;
+$mH: 10px;
+$sH: 2px;
+
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+html{
+	background: #333;
+	font-size: 62.5%;
+}
+.loadFont{
+	font-family:"Righteous";
+}
+.wrapper{
+	margin: 10px auto 0;
+	position: relative;
+	width: $outerHW;
+	div, canvas{
+		position: absolute;
+	}
+	.edge{
+		border: 4px double white;
+		border-radius: 50%;
+		box-shadow: 0 0 25px #111;
+		height: $outerHW;
+		width: 100%;
+	}
+	.hub{
+		background: white;
+		border-radius: 50%;
+		box-shadow: 0 0 20px #000;
+		height: $hubHW;
+		left: calc((#{$outerHW} - #{$hubHW}) * .5);
+		top: calc((#{$outerHW} - #{$hubHW}) * .5);
+		width: $hubHW;
+	}
+	.arm{
+		background: #c03;
+		height: $hH;
+		left: calc(#{$outerHW} * .5);
+		top: calc((#{$outerHW} - #{$hH}) * .5);
+		transform: rotate(-30deg);
+		transform-origin: left 50%;
+		width: calc(#{$outerHW} * .25);
+		&.minute{
+			background: #ddd;
+			height: $mH;
+			top: calc((#{$outerHW} - #{$mH}) * .5);
+			transform: rotate(-150deg);
+			width: calc(#{$outerHW} * .35);
+		}
+		&.second{
+			background: #f63;
+			height: $sH;
+			top: calc((#{$outerHW} - #{$sH}) * .5);
+			transform: rotate(90deg);
+			width: calc(#{$outerHW} * .455);
+		}
+	}
+}
