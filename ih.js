@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
       },
       {
         onClickLink: 'https://youtu.be/9zd9XqwXbWQ',
-        imgageSource: 'https://scontent.fsgn6-1.fna.fbcdn.net/v/t31.0-8/1262509_1376379452597724_947727758_o.jpg?_nc_cat=107&_nc_sid=dd9801&_nc_ohc=heP1S-LxMO8AX-L6ZeG&_nc_ht=scontent.fsgn6-1.fna&oh=101684eb98b3e22499138c08ba559dc4&oe=5F18D5CA',
+        imgageSource: 'https://www3.0zz0.com/2020/07/25/10/452382878.jpg',
         title: 'Một trong những bước đột phá của Syrian Electronic Army (The Shadow)'
       },
       {
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
       },
       {
         onClickLink: 'https://youtu.be/_EGqCjHm5jE',
-        imgageSource: 'https://scontent.fsgn6-1.fna.fbcdn.net/v/t31.0-8/1262509_1376379452597724_947727758_o.jpg?_nc_cat=107&_nc_sid=dd9801&_nc_ohc=heP1S-LxMO8AX-L6ZeG&_nc_ht=scontent.fsgn6-1.fna&oh=101684eb98b3e22499138c08ba559dc4&oe=5F18D5CA',
+        imgageSource: 'https://www3.0zz0.com/2020/07/25/10/452382878.jpg',
         title: 'Website Anonymous hacked by SEA (19/07/2012)'
       },
       {
