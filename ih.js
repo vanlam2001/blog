@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     var articles = [
       {
-        onClickLink: 'https://youtu.be/n8e2DIoQSwI',
+        onClickLink: 'https://www.youtube.com/watch?v=OR6v_cd_XhY&t=208s',
         imgageSource: 'https://syrianfreepress.files.wordpress.com/2013/11/syrian-electronic-army-20131130.jpg',
         title: 'Interwiew Syrian Electronic Army, Cuộc phỏng vấn trực tiếp đầu tiên với Đội Quân Điện Tử Syria'
       },
