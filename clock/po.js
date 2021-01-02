@@ -1,26 +1,15 @@
-(function() {
-    'use strict';
-    const getCurrentTime = () => {
-      let date = new Date();
-      return {
-        hours: date.getHours(),
-        minutes: date.getMinutes(),
-        seconds: date.getSeconds()
-      };
-    }
-    const getLocator = (locator) => document.querySelector(locator);
-    const updateClock = (hours, minutes, seconds) => {
-      dialSecondsEl.style.transform = `translate(-50%, -100%) rotate(${seconds * 6}deg)`;
-      dialMinutesEl.style.transform = `translate(-50%, -100%) rotate(${minutes * 6}deg)`;
-      dialHourEl.style.transform = `translate(-50%, -100%) rotate(${hours * 30}deg)`;
-    };
-    let {hours, minutes, seconds} = { ...getCurrentTime() };
-    const dialSecondsEl = getLocator('.dial__seconds');
-    const dialMinutesEl = getLocator('.dial__minutes');
-    const dialHourEl = getLocator('.dial__hour');
-    updateClock(hours, minutes, seconds);
-    setInterval(() => {
-    let {hours, minutes, seconds} = {...getCurrentTime()};
-      updateClock(hours, minutes, seconds);
-    }, 1000);
-  })();
+setInterval(displayClock, 1000);
+function displayClock() {
+  let d = new Date();
+  let hours = d.getHours();
+  let minutes = d.getMinutes();
+  let seconds = d.getSeconds();
+  let clock = document.querySelector(".clock");
+  let session = "AM";
+  if (hours > 12) session = "PM";
+  if (hours < 10) hours = "0" + hours;
+  if (minutes < 10) minutes = "0" + minutes;
+  if (seconds < 10) seconds = "0" + seconds;
+  let time = hours + ":" + minutes + ":" + seconds + " " + session;
+  clock.innerHTML = time;
+}
