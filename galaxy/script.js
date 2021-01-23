@@ -26,7 +26,7 @@ window.dispatchEvent(new Event('resize'));
 // ---- 
 
 const IMGURL = 'https://media3.s-nbcnews.com/j/newscms/2015_04/857886/150121-andromeda2_980b3f9858070febcb92cdc2c41ac965.nbcnews-fp-1200-630.jpg';
-const IMGURL2 = 'https://i0.wp.com/mycitybynight.co.za/wp-content/uploads/2015/11/NASA-sun.jpg';
+const IMGURL2 = 'https://pbs.twimg.com/media/DON8Y_eUMAAV4pi.jpg';
 
 $.ShaderChunk.my_map_fragment = `
 #ifdef USE_MAP
