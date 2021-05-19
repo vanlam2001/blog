@@ -1,4 +1,4 @@
-![](/blogth3pr0.jpg)  
+![](/assets/images/blogth3pr0.jpg)
 + [Facebook](https://www.facebook.com/cihpc)
 
 --- 
