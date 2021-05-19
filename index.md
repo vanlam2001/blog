@@ -3,7 +3,7 @@
 
 --- 
 # Published
-+ [Lỗi CVE-2020-0796](https://blogth3pr0.github.io/CVE-2020-0796.md)
++ [Lỗi CVE-2020-0796](https://blogth3pr0.github.io/CVE-2020-0796)
  
    
 
