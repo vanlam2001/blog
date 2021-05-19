@@ -1,4 +1,4 @@
-![](/pics/blogth3pr0.jpg)
+![](/pics/back-goku.png)
 + [Facebook](https://www.facebook.com/cihpc)
 
 --- 
