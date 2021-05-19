@@ -1,3 +1,4 @@
+## [Trở Về Trang Chủ](http://blogth3pr0.github.io)
 ![](/pics/back-goku.png)
 + [Facebook](https://www.facebook.com/cihpc)
 
