@@ -34,7 +34,7 @@ Hơn nữa, Microsoft đã đưa ra một bản vá. Bạn nên cập nhật n�
 
 
 ## Mã Kiểm Tra 
-Nhập python file-name.py địa chỉ Ip máy 
+
 
 ```python
 #!/usr/bin/python
