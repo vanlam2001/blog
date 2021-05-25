@@ -20,9 +20,10 @@ author:
   links:
     - label: "HomePage"
       url: "https://blogth3pr0.github.io"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/x153pc/"
+    - label: "Github"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/blogth3pr0"
+teaser: pics/back-goku.png
 
 #Site Settings
 locale: "en-Vietnamese en-US "
