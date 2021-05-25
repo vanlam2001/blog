@@ -49,7 +49,7 @@ whitelist:
 
 # Defaults
 defaults:
-  # _post
+  # _posts
   - scope:
       path: ""
       type: _posts
