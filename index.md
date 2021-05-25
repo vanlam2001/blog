@@ -1,5 +1,6 @@
 
 ![](/pics/back-goku.png)
+### OSWE|eWPTXv2|eMAPT|CRTP|OSCE|eCXD|OSCP|SLAE32|64|eWPT|OSWP 
 
 
 --- 
