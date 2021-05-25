@@ -49,10 +49,10 @@ whitelist:
 
 # Defaults
 defaults:
-  # post
+  # _post
   - scope:
       path: ""
-      type: post
+      type: _posts
     values:
       layout: single
       author_profile: true
