@@ -1,4 +1,9 @@
-## [Trở Về Trang Chủ](http://blogth3pr0.github.io)
+---
+title: WanaCryptor
+date: 25/5/2021
+layout: single
+
+--- 
 ---
 ##  WanaCryptor. NSA Exploits & Ransomware = Ransomworm. 
 [![Language](https://img.shields.io/badge/Lang-Python-blue.svg)](https://www.python.org)
