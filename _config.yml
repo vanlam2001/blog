@@ -11,19 +11,7 @@ plugins:
 logo: "/pics/back-goku.png"
 masthead_title: "HomePage"
 search: true
-# Site Author
-author:
-  name: "Blogth3pr0"
-  avatar: "/pics/back-goku.png"
-  bio: "Python Bash Perl C++ msfconsole PHP js "
-  location: "VietNam"
-  links:
-    - label: "HomePage"
-      url: "https://blogth3pr0.github.io"
-    - label: "Github"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/blogth3pr0"
-teaser: pics/back-goku.png
+
 
 #Site Settings
 locale: "en-Vietnamese en-US "
