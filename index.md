@@ -1,6 +1,6 @@
 
 ![](/pics/back-goku.png)
-### Python Bash Perl C++ msfconsole PHP js 
+### Python Bash Perl Cpp msfconsole PHP js 
 
 
 --- 
