@@ -49,7 +49,7 @@ defaults:
   # post
   - scope:
       path: ""
-      type: posts
+      type: post
     values:
       layout: single
       author_profile: true
