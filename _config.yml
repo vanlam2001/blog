@@ -51,7 +51,7 @@ whitelist:
 defaults:
   # post
   - scope:
-      path: "/post"
+      path: ""
       type: post
     values:
       layout: single
