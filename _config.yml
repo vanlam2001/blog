@@ -12,11 +12,10 @@ logo: "/pics/goku.png"
 masthead_title: "HomePage"
 search: true
 # Site Author
-author:
+author: Blogth3pr0
   name: "Blogth3pr0"
   avatar: "/back-goku.png"
-  bio: "Python Bash Perl Cpp msfconsole PHP js
-"
+  bio: "Python Bash Perl Cpp msfconsole PHP js"
   location: "VietNam"
   links:
     - label: "HomePage"
