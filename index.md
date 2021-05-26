@@ -8,5 +8,5 @@
 # Web Application
 + [Lỗi CVE-2017-9248](https://blogth3pr0.github.io/post/CVE-2017-9248/)
 # Beautiful
-+ [Andromeda galaxy](https://blogth3pr0.github.io/galaxy/)
++ [Andromeda galaxy](/galaxy/)
 
