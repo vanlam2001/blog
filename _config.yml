@@ -8,13 +8,13 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-seo-tag
-logo: "/pics/goku.png"
+logo: "/pics/blogth3pr0.jpg"
 masthead_title: "HomePage"
 search: true
 # Site Author
 author: Blogth3pr0
   name: "Blogth3pr0"
-  avatar: "/back-goku.png"
+  avatar: "/pics/blogth3pr0.jpg"
   bio: "Python Bash Perl Cpp msfconsole PHP js"
   location: "VietNam"
   links:
