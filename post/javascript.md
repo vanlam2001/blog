@@ -23,7 +23,7 @@ Và bật cửa sổ f12 bật cửa sổ console, Sau đó copy đoạn code �
 ![](/assets/images/3.PNG)
 
 
-
+---
 ```javaScript
 
 var delayInput = prompt("Delay between actions (ms)", "1000");
@@ -102,7 +102,7 @@ function addFriends(){
 addFriends();
 
 ```
-
+---
 
 
 Cử sổ này sẽ hiện lên và bấm tiếp theo, Chọn số lượng là 15 nếu vượt quá code chạy sẽ bị lỗi :D
