@@ -19,7 +19,7 @@ Chào mọi người, Khi mọi người nhận được những lời mời k�
 
 ## Hướng dẫn
 Đầu tiên login tài khoản fb trên trình duyệt chrome  [đường link](https://m.facebook.com/friends/center/requests/?rfj)
-![](/assets/images/3.png)
+![](/assets/images/3.PNG)
 Và bật cửa sổ f12 bật cửa sổ console, Sau đó copy đoạn code ở phía dưới này 
 ```javaScript
 javascript:
