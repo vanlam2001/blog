@@ -104,9 +104,9 @@ addFriends();
 
 
 Cử sổ này sẽ hiện lên và bấm tiếp theo
+Chọn số lượng là 15 nếu vượt quá code chạy sẽ bị lỗi :D
 
 ![](/assets/images/1.PNG)
-Chọn số lượng là 15 nếu vượt quá code chạy sẽ bị lỗi :D
 
 ![](/assets/images/2.PNG)
 
