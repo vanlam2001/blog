@@ -25,6 +25,7 @@ Và bật cửa sổ f12 bật cửa sổ console, Sau đó copy đoạn code �
 
 ---
 ```js
+javaScript:
 
 var delayInput = prompt("Delay between actions (ms)", "1000");
 var stopAfter = prompt("Stop after how many friend requests are cancelled?", "100");
