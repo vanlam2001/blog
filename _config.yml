@@ -26,14 +26,13 @@ author:
       url: "https://github.com/blogth3pr0.github.io"
 teaser: pics/blogth3pr0.jpg
 #Site Settings
-locale: "en-US"
+locale: "en-US en-Vietnamese"
 title: "Blogth3pr0"
 title_separator: "-"
-name: "Boku"
-description: "Pentesting & Exploit Dev"
+name: "Blogth3pr0"
 url: "https://blogth3pr0.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: "blogth3pr0/blogth3pr0.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: "blogth3pr0/blogth3pr0.github.io/post" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 breadcrumbs: false # true, false (default)
 words_per_minute: 120
 
@@ -49,10 +48,10 @@ whitelist:
 
 # Defaults
 defaults:
-  # _posts
+  # post
   - scope:
       path: ""
-      type: posts
+      type: post
     values:
       layout: single
       author_profile: true
