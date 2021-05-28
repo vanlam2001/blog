@@ -22,6 +22,7 @@ Chào mọi người, Khi mọi người nhận được những lời mời k�
 Và bật cửa sổ f12 bật cửa sổ console, Sau đó copy đoạn code ở phía dưới này 
 ![](/assets/images/3.PNG)
 ```javaScript
+
 javascript:
 
 var delayInput = prompt("Delay between actions (ms)", "1000");
@@ -98,11 +99,12 @@ function addFriends(){
 }
 
 addFriends();
+
 ```
 
-![](/assets/images/1.png)
+![](/assets/images/1.PNG)
 Cử sổ này sẽ hiện lên và bấm tiếp theo
-![](/assets/images/2.png)
+![](/assets/images/2.PNG)
 Chọn số lượng là 15 nếu vượt quá code chạy sẽ bị lỗi :D
 
 
