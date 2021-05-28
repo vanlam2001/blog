@@ -21,9 +21,10 @@ Chào mọi người, Khi mọi người nhận được những lời mời k�
 Đầu tiên login tài khoản fb trên trình duyệt chrome  [đường link](https://m.facebook.com/friends/center/requests/?rfj)
 Và bật cửa sổ f12 bật cửa sổ console, Sau đó copy đoạn code ở phía dưới này 
 ![](/assets/images/3.PNG)
-```javaScript
 
-javascript:
+
+
+```javaScript
 
 var delayInput = prompt("Delay between actions (ms)", "1000");
 var stopAfter = prompt("Stop after how many friend requests are cancelled?", "100");
@@ -101,6 +102,7 @@ function addFriends(){
 addFriends();
 
 ```
+
 
 
 Cử sổ này sẽ hiện lên và bấm tiếp theo, Chọn số lượng là 15 nếu vượt quá code chạy sẽ bị lỗi :D
