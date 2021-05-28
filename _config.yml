@@ -20,7 +20,7 @@ author:
   location: "VietNam"
   links:
     - label: "HomePage"
-      url: "https://blogth3pr0.github.io"
+      url: "https://blogth3pr0.github.io/post"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/blogth3pr0.github.io"
@@ -30,7 +30,7 @@ locale: "en-US en-Vietnamese"
 title: "Blogth3pr0"
 title_separator: "-"
 name: "Blogth3pr0"
-url: "https://blogth3pr0.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://blogth3pr0.github.io/post" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "blogth3pr0/blogth3pr0.github.io/post" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 breadcrumbs: false # true, false (default)
