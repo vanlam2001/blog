@@ -102,13 +102,13 @@ addFriends();
 
 ```
 
-![](/assets/images/1.PNG)
+
 Cử sổ này sẽ hiện lên và bấm tiếp theo
-![](/assets/images/2.PNG)
+
+![](/assets/images/1.PNG)
 Chọn số lượng là 15 nếu vượt quá code chạy sẽ bị lỗi :D
 
-
-
+![](/assets/images/2.PNG)
 
 
 ## Nếu quá nhiều lời mời code chạy xong 15 người, sau đó nhập lại lại thời gian và số lượng 15 người , Sau khi hoàn thành những bước trên cứ để code chạy :D
