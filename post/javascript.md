@@ -114,7 +114,7 @@ Cử sổ này sẽ hiện lên và bấm tiếp theo, Chọn số lượng là 
 
 ---
 ## Nếu quá nhiều lời mời code chạy xong 15 người, sau đó nhập lại lại thời gian và số lượng 15 người , Sau khi hoàn thành những bước trên cứ để code chạy :D
----
----
+
+
 ## Chúc may mắn :D
 ---
