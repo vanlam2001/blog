@@ -10,4 +10,11 @@ plugins:
   - jekyll-seo-tag
 masthead_title: "HomePage"
 search: true
+# Site Author
+avatar: "/pics/blogth3pr0.jpg"
+description: >- # this means to ignore newlines until "baseurl:"
+Python Bash Perl Cpp Php msfconsole  .
+email: x153@secmail.pro
+instagram_username: cihpc 
+github_username:  blogth3pr0
 
