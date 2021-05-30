@@ -56,14 +56,14 @@ if(!empty($_GET['q'])) {
 ---
 
 
-## Mô Tả 
-# Làm thế nào nó hoạt động?
+# Mô Tả 
+## Làm thế nào nó hoạt động?
 Trên trình kích hoạt: onkeypress. Phím được nhấn bởi máy khách sẽ được gửi đến máy chủ trên localhost /? Q = (key_here)
 Máy chủ sẽ nhận điều này thông qua tập lệnh PHP: Nhận đầu vào từ Q và ghi vào tệp.
 
 Những cải tiến có thể được thực hiện: Ví dụ: triển khai websockets, Ajax, v.v. và gửi dữ liệu trong thời gian thực.
 
-# Tôi có thể sử dụng cái này ở đâu?
+## Tôi có thể sử dụng cái này ở đâu?
 XSS được lưu trữ trên các trang web? Thỏa hiệp các thư viện / trang web JS và nhúng JS độc hại.
 Chạy proxy miễn phí của riêng bạn và đầu độc người dùng bằng JS độc hại (và bộ nhớ cache) Xem tại link bên dưới 
 - https://blog.haschek.at/2013/05/why-free-proxies-are-free-js-infection.html
