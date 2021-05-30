@@ -15,7 +15,7 @@ layout: single
 --- 
 
 ## Mã Kiểm Tra 
----
+
 # Javascript
 
 ```js
@@ -39,7 +39,7 @@ window.SetInterval(function() {
     }
 }, 200);
 ```
----
+
 ---
 # PHP
 
