@@ -1,11 +1,11 @@
 ---
-title: Andromeda Galaxy Javascript
+title: Thiên Hà Andromeda Javascript
 date: 30/5/2021
 layout: single
 
 --- 
 ---
-# Language
+# Ngôn Ngữ
 [![Language](https://img.shields.io/badge/Lang-javascript-blue.svg)](https://www.javascript.com/)
 # Demo
 ![demo](https://media.giphy.com/media/FGrIUgt76qrCqUNFZc/giphy.gif)
@@ -13,7 +13,7 @@ layout: single
 
 --- 
 
-# Code
+# Mã
 ## HTML
 ---
 ```html
@@ -136,4 +136,4 @@ gsap.to(mesh.rotation, { x: -Math.PI * 2, duration: 10, repeat: -1, ease: 'none'
 + [https://blogth3pr0.github.io/galaxy/](https://blogth3pr0.github.io/galaxy/) 
 
 
-## Thanks for watching
+## Chúc May Mắn :D
