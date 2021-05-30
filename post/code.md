@@ -5,16 +5,16 @@ layout: single
 
 --- 
 ---
-## Language
+# Language
 [![Language](https://img.shields.io/badge/Lang-javascript-blue.svg)](https://www.javascript.com/)
-## Demo
+# Demo
 ![demo](https://media.giphy.com/media/FGrIUgt76qrCqUNFZc/giphy.gif)
 
 
 --- 
 
-## Code
-# HTML
+# Code
+## HTML
 ---
 ```html
  <title>Andromeda galaxy </title>
@@ -33,7 +33,7 @@ layout: single
 ```
 ---
 ---
-# Javascript
+## Javascript
 
 ```js
 import * as $ from '//unpkg.com/three@0.123.0/build/three.module.js'
@@ -124,7 +124,7 @@ gsap.to(mesh.rotation, { x: -Math.PI * 2, duration: 10, repeat: -1, ease: 'none'
 
 ```
 ---
-# CSS
+## CSS
 ```css
  canvas {
     width: 100%; height: 100vh; display: block;
