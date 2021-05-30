@@ -66,8 +66,8 @@ Những cải tiến có thể được thực hiện: Ví dụ: triển khai we
 ## Tôi có thể sử dụng cái này ở đâu?
 XSS được lưu trữ trên các trang web? Thỏa hiệp các thư viện / trang web JS và nhúng JS độc hại.
 Chạy proxy miễn phí của riêng bạn và đầu độc người dùng bằng JS độc hại (và bộ nhớ cache) Xem tại link bên dưới 
-[ https://blog.haschek.at/2013/05/why-free-proxies-are-free-js-infection.html]( https://blog.haschek.at/2013/05/why-free-proxies-are-free-js-infection.html) 
-[ https://blog.haschek.at/2015-analyzing-443-free-proxies](https://blog.haschek.at/2015-analyzing-443-free-proxies) 
++ [ https://blog.haschek.at/2013/05/why-free-proxies-are-free-js-infection.html]( https://blog.haschek.at/2013/05/why-free-proxies-are-free-js-infection.html) 
++ [ https://blog.haschek.at/2015-analyzing-443-free-proxies](https://blog.haschek.at/2015-analyzing-443-free-proxies) 
 
 Tạo khối lượng phần mềm độc hại của riêng bạn với HTA: html có thể thực thi, v.v.
 Chỉ là một số ý tưởng.
