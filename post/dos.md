@@ -34,9 +34,10 @@ except:
 ---
 
 ---
+```
 C:\Users\Administrator\Documents\python>python 15.py
 File created
-
+```
 ---
 
 ## Sau đó file test.txt đã xuất hiện trong tệp Documents
