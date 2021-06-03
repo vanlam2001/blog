@@ -1,5 +1,5 @@
 ---
-title: [PoC] Simple C++ Keyloger (GetASyncKeyState)
+title: PoC Simple C++ Keyloger (GetASyncKeyState)
 date: 3/6/2021
 layout: single
 --- 
