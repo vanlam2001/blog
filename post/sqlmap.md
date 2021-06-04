@@ -8,8 +8,8 @@ layout: single
 # Ngôn Ngữ
 [![Language](https://img.shields.io/badge/Lang-python-blue.svg)](https://www.python.org/)
 
-### Mô Tả 
-## SQLMap là gì
+## Mô Tả 
+### SQLMap là gì
 
 SQLMAP là công cụ khai thác những lổ hỏng của cơ sở dữ liệu SQL. Công cụ này được xem là công cụ khai thác SQL tốt nhất hiện nay. Được giới bảo mật và giới hacker sử dụng thường xuyên. Với người dùng Kali hoặc Back Track 5 thì SQLMAP đã được tích hợp sẵn vào hệ điều hành. Riêng Windows thì chúng ta phải cài đặt thêm python và SQLMAP để sử dụng
 
