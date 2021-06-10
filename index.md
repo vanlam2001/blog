@@ -3,14 +3,14 @@
 
 
 --- 
-# Published
+# Phát hành
 + [Lỗi CVE-2020-0796](/_posts/2020-05-21-cve-2020-0796.md)
 + [WanaCryptor](https://blogth3pr0.github.io/post/WanaCryptor/)
 
  
 
-# Web Application
+# Ứng dụng web 
 + [Lỗi CVE-2017-9248](/_posts/2020-05-21-cve-2017-9248.md)
 
-+ [KeyLogger](https://blogth3pr0.github.io/post/Keylogger.html)
++ [KeyLogger](/_posts/2020-05-21-Keylogger.md)
 + [Human-Resource-Information-System-0.1 - Remote Code Execution](https://github.com/blogth3pr0/Human-Resource-Information-System-0.1)
