@@ -1,4 +1,4 @@
-![](/pics/blogth3pr0.jpg)
+## Xin chào, tôi là một người quan tâm đến bảo mật và các mẹo hay, cảm ơn bạn đã ghé thăm blog của tôi
 ### Python Bash Perl cpp msfconsole PHP js 
 
 
