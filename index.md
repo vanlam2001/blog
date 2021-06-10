@@ -1,4 +1,4 @@
-## Xin chào, tôi là một người quan tâm đến bảo mật và các mẹo hay, cảm ơn bạn đã ghé thăm blog của tôi
+## Xin chào, tôi là một người quan tâm đến bảo mật và các mẹo hay, cảm ơn bạn đã ghé thăm blog của tôi :D
 ### Python Bash Perl cpp msfconsole PHP js 
 
 
