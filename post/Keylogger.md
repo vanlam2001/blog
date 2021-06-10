@@ -3,6 +3,10 @@ title: Javascript,PHP Keylogger
 date: 30/5/2021
 layout: single
 
+tags:
+  - cve
+  
+
 --- 
 ---
 ## Credits: Ismailtasdelen
