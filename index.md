@@ -1,4 +1,4 @@
-
+![](/pics/blogth3pr0.jpg)
 ### Python Bash Perl cpp msfconsole PHP js 
 
 
