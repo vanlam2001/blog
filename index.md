@@ -1,4 +1,4 @@
-![](/pics/blogth3pr0.jpg)
+![](https://avatars.githubusercontent.com/u/37875972?v=4)
 ### Tôi không phải là hacker, tôi chỉ hứng thú với Cyber Security :D
 
 
