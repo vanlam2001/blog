@@ -5,7 +5,7 @@ layout: single
 --- 
 
 
-# Mô Tả 
+## Mô Tả 
 Tiết lộ các tài khoản WordPress thông qua `/wp-json/wp/v2/users/` sử dụng php để dump tên tài khoản, và họ tên đăng bài 
 
 
