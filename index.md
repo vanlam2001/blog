@@ -1,5 +1,5 @@
 ![](/pics/blogth3pr0.jpg)
-### Python Bash Perl cpp msfconsole PHP js 
+### Tôi không phải là hacker, tôi chỉ hứng thú với Cyber Security :D
 
 
 --- 
