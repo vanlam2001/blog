@@ -6,7 +6,7 @@ layout: single
 
 
 ## Mô Tả 
-Khuyến Cáo: Công cụ chỉ mang tính chất giáo dục, không sử dụng các mục đích vi phạm pháp luật, tôi và tác giả của bài viết này sẽ không chịu trách nhiệm với hành động của các bạn với mục đích bất hợp pháp nào Cảm Ơn! 
+Khuyến cáo công cụ chỉ mang tính chất giáo dục, không sử dụng các mục đích vi phạm pháp luật, tôi và tác giả của bài viết này sẽ không chịu trách nhiệm với hành động của các bạn với mục đích bất hợp pháp nào Cảm Ơn! 
 
 Blackcat Crypto là Crypto-Locker mã nguồn mở. Blackcat Crypto được phát triển bằng Visual C ++. Nó có các tính năng mã hóa tất cả các tập tin, khóa hệ thống và gửi các khóa trở lại máy chủ. Chức năng đa luồng giúp công cụ này mã hóa nhanh hơn.
 
