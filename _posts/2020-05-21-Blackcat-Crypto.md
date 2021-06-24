@@ -111,7 +111,7 @@ string RandomString(int len)
 
 ```
 
-## Bài viết được chia sẻ bởi tác giả [ajayrandhawa/](https://github.com/ajayrandhawa/)
+## Bài viết được chia sẻ bởi tác giả [ajayrandhawa](https://github.com/ajayrandhawa/)
 
 ## Chúc may mắn :D
 
