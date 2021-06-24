@@ -29,7 +29,7 @@ Lấy tất cả các tệp từ tất cả các ổ đĩa để mã hóa chúng
 
 Đây là chương trình Visual C ++ lấy tất cả danh sách thư mục & tệp trong ổ đĩa và lưu trữ đường dẫn trong tệp văn bản để mã hóa sử dụng sau này. Tôi sử dụng thư viện Boost C ++ để lấy danh sách tất cả các tệp. Trước tiên hãy thiết lập thư viện Boost để biên dịch chương trình.
 
-[![Language](https://img.shields.io/badge/Lang-c++-blue.svg)
+![Language](https://img.shields.io/badge/Lang-c++-blue.svg)
 
 ```cpp
 #include <boost/config/warning_disable.hpp>
