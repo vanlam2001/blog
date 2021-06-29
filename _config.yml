@@ -25,7 +25,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/x153pc"
     - label: "About"
-      icon: "fab fa-fw fa-about"
+      icon: "fab fa-fw fa-circle"
       url: "https://blogth3pr0.github.io/2021/06/29/about.html"
 teaser: pics/blogth3pr0.jpg
 #Site Settings
