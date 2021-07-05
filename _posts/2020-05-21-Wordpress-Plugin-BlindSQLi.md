@@ -1,6 +1,5 @@
 ---
-title: WordPress Plugin Poll, Survey, Questionnaire and Voting system 1.5.2 - 'date_answers' Blind
-SQL Injection
+title: WordPress Plugin Poll, Survey, Questionnaire and Voting system 1.5.2 - 'date_answers' Blind SQL Injection
 date: 5/07/2021
 layout: single
 --- 
