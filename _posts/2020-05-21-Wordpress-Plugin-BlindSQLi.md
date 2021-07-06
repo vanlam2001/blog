@@ -9,7 +9,7 @@ Tác giả khai thác: inspired - Toby Jackson
 
 Một lỗ hổng đã được phát hiện trong plugin wpdevart wordpress "Poll, Survey, Questionnaire and Voting system" phiên bản 1.5.0 và 1.5.2. Có thể thực hiện chèn SQL mù vào tham số date_answers [] khi bỏ phiếu. Điều này có thể được sử dụng để kết xuất cơ sở dữ liệu back end. Phiên bản 1.5.2 yêu cầu thay đổi tiêu đề bằng phương pháp thích hợp để giả mạo địa chỉ IP, chẳng hạn như X-Forwarded-For
 
-+ Nguồn khai thác [exploits/50052](https://www.exploit-db.com/exploits/50052)
+Nguồn khai thác [exploits/50052](https://www.exploit-db.com/exploits/50052)
 ## Vulnerable Code 
 
 Mã dễ bị tấn công nằm trong trang front_end.php trong hàm save_poll_in_databese (). Nó lấy $ question_id và $ current_user_ip trước khi lưu trữ phiếu bầu trong một biến có tên là $ new_voted_array, như được thấy bên dưới, từ tham số bài đăng date_answers
