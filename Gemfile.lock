@@ -1,1 +1,4 @@
-gem "addressable", ">= 2.8.0"
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.7.0)
