@@ -2,6 +2,8 @@
 title: Tiết lộ Người Dùng WordPress
 date: 23/06/2021
 layout: single
+header:
+  teaser: /assets/images/wordpress.png
 --- 
 
 
