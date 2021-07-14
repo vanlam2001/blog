@@ -2,13 +2,14 @@
 title: Code JavaScript để hủy lời mời kết bạn trên Facebook
 date: 28/5/2021
 layout: single
-
+header:
+  teaser: /assets/images/js.png
 
 --- 
----
+
 
 [![Language](https://img.shields.io/badge/Lang-JavaScript-blue.svg)](https://www.javascript.com/  )
---- 
+
 
 
  
@@ -23,7 +24,7 @@ Và bật cửa sổ f12 bật cửa sổ console, Sau đó copy đoạn code �
 ![](/assets/images/3.PNG)
 
 
----
+
 ```js
 javaScript:
 
