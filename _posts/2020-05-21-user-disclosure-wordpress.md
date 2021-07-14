@@ -42,9 +42,7 @@ else{echo "[*] No user";}
 ?>
 
 ```
-Có thể thấy User ID Name đã được dump ra, Với tài khoản trên bạn có thể sử dụng các công cụ dò mật khẩu để truy ra nó :D
 
-![](/assets/images/10.PNG)
 
 ## Chúc may mắn :D
 
