@@ -3,7 +3,7 @@ title: Javascript,PHP Keylogger
 date: 30/5/2021
 layout: single
 header:
-  teaser: /assets/images/madoc.png
+  teaser: /assets/images/madoc.jpg
 --- 
 
 ## Credits: Ismailtasdelen
