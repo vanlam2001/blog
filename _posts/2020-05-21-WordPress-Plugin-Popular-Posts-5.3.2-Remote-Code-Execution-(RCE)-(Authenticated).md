@@ -7,7 +7,7 @@ header:
 --- 
 
 ## Mô Tả 
-Lưu ý: Cần có tiện ích Bài đăng phổ biến đang hoạt động (tức là trong phần chân trang) và tiện ích mở rộng gd cho PHP là Đã bật # (nếu không WPP không thể tạo hình thu nhỏ). Ngoài ra, người dùng được xác thực phải có vai trò "Người đóng góp" trở lên.
+Lưu ý: Cần có tiện ích Bài đăng phổ biến đang hoạt động (tức là trong phần chân trang) và tiện ích mở rộng gd cho `PHP` là Đã bật (nếu không `WPP` không thể tạo hình thu nhỏ). Ngoài ra, người dùng được xác thực phải có vai trò "Người đóng góp" trở lên.
 
 + Tác giả: Simone Cristofaro
 + Phiên bản: 5.3.2 
