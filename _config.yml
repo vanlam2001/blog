@@ -8,7 +8,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-seo-tag
-logo: "/pics/blogth3pr0.jpg"
+logo: ""
 masthead_title: "HomePage"
 search: true
 # Site Author
