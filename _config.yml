@@ -15,8 +15,7 @@ search: true
 author:
   name: "Lam Nguyen"
   avatar: "/pics/78.jpg"
-  bio: "Python Bash Perl Cpp msfconsole PHP js
-"
+  bio: "Student"
   location: "VietNam"
   links:
     - label: "HomePage"
