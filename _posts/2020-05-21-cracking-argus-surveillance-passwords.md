@@ -28,7 +28,7 @@ Cấu hình đang lưu trữ mật khẩu của người dùng dưới dạng b�
 
 ![hash](https://i.imgur.com/d1PnFsd.png)
 
-Một điều thú vị  là bốn ký tự đầu tiên và bốn ký tự cuối cùng trong mã băm giống nhau `E03B` vì mật khẩu của tôi đã được kiểm tra trong đó ký tự đầu tiên và ký tự cuối cùng giống nhau` t`
+Một điều thú vị  là bốn ký tự đầu tiên và bốn ký tự cuối cùng trong mã băm giống nhau `E03B` vì mật khẩu của tác giả đã kiểm tra trong đó ký tự đầu tiên và ký tự cuối cùng giống nhau` t`
 
 Điều này xác nhận rằng `t = E03B`, tôi đã giả định rằng mỗi ký tự trong mật khẩu có 4 ký tự trong hàm băm 34
 
