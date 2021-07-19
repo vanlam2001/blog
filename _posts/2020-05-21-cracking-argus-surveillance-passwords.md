@@ -27,7 +27,7 @@ Argus Surveillance DVR 4.0 đang lưu trữ cấu hình trong một tệp có t�
 
 + Điều này xác nhận rằng `t=E03B` , Tôi đã giả định rằng mỗi ký tự trong mật khẩu có 4 ký tự trong hàm băm
 + ![](https://i.imgur.com/cZhNqwc.png)
- Thật thú vị, hãy thay đổi mật khẩu thành `1234567890` (10 ký tự)
++ Thật thú vị, hãy thay đổi mật khẩu thành `1234567890` (10 ký tự)
 ![](https://i.imgur.com/trhdvQE.png)
 + Đây là hàm băm mật khẩu mới trong `DVRParams.ini`
 ![](https://i.imgur.com/NM50Tbq.png)
