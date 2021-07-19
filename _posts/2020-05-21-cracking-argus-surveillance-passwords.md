@@ -26,8 +26,8 @@ Argus Surveillance DVR 4.0 đang lưu trữ cấu hình trong một tệp có t�
 + Một điều thú vị  là bốn ký tự đầu tiên và bốn ký tự cuối cùng trong mã băm giống nhau `E03B`vì mật khẩu của  đã được kiểm tra trong đó ký tự đầu tiên và ký tự cuối cùng giống nhau `t`
 
 + Điều này xác nhận rằng `t=E03B` , Tôi đã giả định rằng mỗi ký tự trong mật khẩu có 4 ký tự trong hàm băm
-![](https://i.imgur.com/cZhNqwc.png)
-+ Thật thú vị, hãy thay đổi mật khẩu thành `1234567890` (10 ký tự)
++ ![](https://i.imgur.com/cZhNqwc.png)
+ Thật thú vị, hãy thay đổi mật khẩu thành `1234567890` (10 ký tự)
 ![](https://i.imgur.com/trhdvQE.png)
 + Đây là hàm băm mật khẩu mới trong `DVRParams.ini`
 ![](https://i.imgur.com/NM50Tbq.png)
