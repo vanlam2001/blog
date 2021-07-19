@@ -17,25 +17,36 @@ Argus Surveillance DVR 4.0 đang lưu trữ cấu hình trong một tệp có t�
  `C:\ProgramData\PY_Software\Argus Surveillance DVR`
 
 
-![](https://i.imgur.com/KYcjQOM.png)
-+ Đã tạo một tài khoản thử nghiệm với kiểm tra tên người dùng và kiểm tra mật khẩu
+![location](https://i.imgur.com/KYcjQOM.png)
 
-![](https://i.imgur.com/cbwtBsN.png)
-+ Cấu hình đang lưu trữ mật khẩu của người dùng dưới dạng băm 
+Đã tạo một tài khoản thử nghiệm với tên người dùng `test` và mật khẩu `test`
 
-+ Một điều thú vị  là bốn ký tự đầu tiên và bốn ký tự cuối cùng trong mã băm giống nhau `E03B`vì mật khẩu của  đã được kiểm tra trong đó ký tự đầu tiên và ký tự cuối cùng giống nhau `t`
+![users](https://i.imgur.com/cbwtBsN.png)
 
-+ Điều này xác nhận rằng `t=E03B` , Tôi đã giả định rằng mỗi ký tự trong mật khẩu có 4 ký tự trong hàm băm
-+ ![](https://i.imgur.com/cZhNqwc.png)
-Thật thú vị, hãy thay đổi mật khẩu thành `1234567890` (10 ký tự)
-![test](https://i.imgur.com/trhdvQE.png)
-+ Đây là hàm băm mật khẩu mới trong `DVRParams.ini`
-![](https://i.imgur.com/NM50Tbq.png)
-+ Giả định của tôi là đúng vì hàm băm mật khẩu dài chính xác 40 ký tự (10 * 4)
+Cấu hình đang lưu trữ mật khẩu của người dùng dưới dạng băm
 
-+ Tương tự, tôi đã thay đổi mật khẩu thành `abc...xyz`và `ABC...XYZ`và ghi lại các giá trị cho mỗi ký tự
 
-+ Dựa trên những phát hiện ở trên, tôi đã viết một đoạn mã đơn giản để giải mã hàm băm mật khẩu
+![hash](https://i.imgur.com/d1PnFsd.png)
+
+Một điều thú vị  là bốn ký tự đầu tiên và bốn ký tự cuối cùng trong mã băm giống nhau `E03B` vì mật khẩu của tôi đã được kiểm tra trong đó ký tự đầu tiên và ký tự cuối cùng giống nhau` t`
+
+Điều này xác nhận rằng `t = E03B`, tôi đã giả định rằng mỗi ký tự trong mật khẩu có 4 ký tự trong hàm băm 34
+
+![test](https://i.imgur.com/cZhNqwc.png)
+
+Thật thú vị, hãy đổi mật khẩu thành `1234567890` (10 ký tự)
+
+![change_pass](https://i.imgur.com/trhdvQE.png)
+
+Đây là mật khẩu băm mới trong `DVRParams.ini`
+
+![new_pass](https://i.imgur.com/NM50Tbq.png)
+
+Giả định của tôi là đúng vì hàm băm mật khẩu dài chính xác 40 ký tự (10 * 4) 46
+
+Tương tự, tác giả  đã thay đổi mật khẩu thành `abc ... xyz` và` ABC ... XYZ` và ghi chú lại các giá trị cho từng ký tự
+
+Dựa trên những phát hiện ở trên, tác giả  đã viết một đoạn mã đơn giản để giải mã hàm băm mật khẩu 50
 
 Mã khai thác: [exploits/50130](https://www.exploit-db.com/exploits/50130)
 
