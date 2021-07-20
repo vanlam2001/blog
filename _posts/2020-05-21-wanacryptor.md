@@ -1,6 +1,6 @@
 ---
 title: WanaCryptor. NSA Exploits & Ransomware = Ransomworm.
-date: 25/5/2021
+date: 20/7/2021
 layout: single
 header:
   teaser: /assets/images/madoc.jpg
