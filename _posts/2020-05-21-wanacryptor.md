@@ -2,11 +2,9 @@
 title: WanaCryptor. NSA Exploits & Ransomware = Ransomworm.
 date: 25/5/2021
 layout: single
-
+header:
+  teaser: /assets/images/madoc.jpg
 --- 
-
-
-[![Language](https://img.shields.io/badge/Lang-Python-blue.svg)](https://www.python.org)
 
 ## Giới Thiệu
 Mã Độc Tống Tiền WanaCryptor
