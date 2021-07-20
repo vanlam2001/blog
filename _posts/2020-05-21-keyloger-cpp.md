@@ -6,7 +6,7 @@ header:
   teaser: /assets/images/madoc.jpg
 --- 
 
----
+
 # Ngôn Ngữ
 [![Language](https://img.shields.io/badge/Lang-c++-blue.svg)](https://www.learncpp.com/)
 
@@ -15,7 +15,7 @@ Tác giả: PapaMouse
 
 Một keylogger nhỏ mà đã tạo với một vài tính năng. Nó không phải là một chương trình hoàn chỉnh vì vậy tôi chỉ đưa ra mã nguồn vì đây là thực hành cho bản thân tôi. Điều này không sử dụng móc bàn phím chung. Nó sử dụng GetASyncKeyState (), một sự thay thế có uy tín nhưng vẫn không phù hợp thực sự với KBDLLHOOKLES cũ. Nó tự động cài đặt chính nó trong sổ đăng ký khi chạy, vì vậy hãy lưu ý, nó cũng hiển thị tiêu đề cửa sổ nếu một cửa sổ mới được chọn. Chúc bạn sử dụng  vui vẻ, Code ở bên dưới.
 
---- 
+
 
 # Mã
 ## C++
@@ -271,7 +271,7 @@ int get_keys()
 }
 ```
 
----
+
 
 
 
