@@ -15,7 +15,7 @@ Dự án được thực hiện như một phần của Luận văn Thạc sĩ v
 Máy dò mốc khuôn mặt có trong thư viện dlib là sự triển khai của Căn chỉnh khuôn mặt một phần nghìn giây với một bài báo về Cây hồi quy của Kazemi và Sullivan (2014). Bạn có thể tải xuống mốc này tại đây , cũng như nó được đưa vào kho lưu trữ dưới tên gọi models / shape.dat .
 
 Phương pháp trích xuất các tính năng và chuẩn hóa đã được trình bày trong chương Trích xuất các tính năng. Các tính năng được trích xuất với nhãn là các đối tượng numpy được tuần tự hóa trong cơ sở dữ liệu thư mục . Mô hình phân loại cảm xúc cuối cùng được đăng nhiều kỳ dưới các mô hình / cảm xúc.joblib .
-+ GitHub [niebardzo/Emotions](https://github.com/niebardzo/Emotions)
++ GitHub ([niebardzo/Emotions](https://github.com/niebardzo/Emotions))
 
 ## Các yêu cầu 
 Phần mềm đã được thử nghiệm trên Ubuntu 18.04. * LTS với Python 3.6. * Được cài đặt.
