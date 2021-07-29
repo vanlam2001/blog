@@ -204,10 +204,10 @@ Nếu bạn muốn hỏi tôi một câu hỏi, xin vui lòng liên hệ với t
 
 ## To Do
 
--[x] Viết một chuỗi doc cho mỗi lớp và mỗi phương thức trong utils.
--[x] Thực hiện Lựa chọn tính năng, thực hiện kiểm tra tầm quan trọng của đối tượng bằng cách vẽ biểu đồ.
--[x] Triển khai lựa chọn mô hình tốt với các chỉ số và lập biểu đồ - analyse.py -a tt
--[x]  Kết thúc README - ghi lại bản demo, thêm bản vẽ và sơ đồ.
+-[x]Viết một chuỗi doc cho mỗi lớp và mỗi phương thức trong utils.
+-[x]Thực hiện Lựa chọn tính năng, thực hiện kiểm tra tầm quan trọng của đối tượng bằng cách vẽ biểu đồ.
+-[x]Triển khai lựa chọn mô hình tốt với các chỉ số và lập biểu đồ - analyse.py -a tt
+-[x]Kết thúc README - ghi lại bản demo, thêm bản vẽ và sơ đồ.
 
 
 
