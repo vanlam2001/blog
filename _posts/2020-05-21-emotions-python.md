@@ -5,9 +5,10 @@ layout: single
 header:
    teaser: https://cdn.datafloq.com/cache/blog_pictures/878x531/face-detection-with-intel-distribution-for-python.png
 ---
-
+[![Language](https://img.shields.io/badge/Lang-python-blue.svg)](https://www.python.org/
 
 ## Giới thiệu 
+
 Tác giả: niebardzo
 
 Dự án được thực hiện như một phần của Luận văn Thạc sĩ về AGH. Mục đích của dự án là tạo ra ứng dụng nhận dạng cảm xúc với việc sử dụng các phương pháp Học máy. Để đạt được mục tiêu, một phần của tập dữ liệu Khuôn mặt cảm xúc được hướng dẫn bởi Karolinska ( KDEF ) đã được sử dụng. Bộ dữ liệu chứa các bức ảnh thể hiện từng cảm xúc (chỉ sử dụng hình ảnh chính diện - 980 mẫu; 140 mẫu cho mỗi cảm xúc). Để trích xuất thư viện dlib mốc khuôn mặt đã được sử dụng với mô hình được đào tạo trước để phát hiện mốc khuôn mặt.
