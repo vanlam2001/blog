@@ -5,7 +5,7 @@ layout: single
 header:
    teaser: https://cdn.datafloq.com/cache/blog_pictures/878x531/face-detection-with-intel-distribution-for-python.png
 ---
-[![Language](https://img.shields.io/badge/Lang-python-blue.svg)](https://www.python.org/
+[![Language](https://img.shields.io/badge/Lang-python-blue.svg)](https://www.python.org/)
 
 ## Giới thiệu 
 
