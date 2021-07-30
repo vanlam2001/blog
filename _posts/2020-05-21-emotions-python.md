@@ -66,6 +66,7 @@ Cảm xúc
 
 ## Tổng quan về giải pháp
 Chương trình bày tổng quan về giải pháp. Mỗi chương mô tả phương pháp và / hoặc quy trình làm việc của từng bước đã được thực hiện như thế nào. Vui lòng xem các sơ đồ mô tả quy trình phát hiện cảm xúc tổng thể và sơ đồ mô tả quy trình đào tạo mô hình.
+
 ![](https://github.com/niebardzo/Emotions/raw/master/static/arch_diagram.png)
 
 ## Tính năng chiết xuất
