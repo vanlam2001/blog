@@ -2,7 +2,8 @@
 title: Công cụ pywhisker
 date: 1/8/2021
 layout: single
-teaser: https://github.com/ShutdownRepo/pywhisker/blob/main/.assets/add_pem.png?raw=true
+header:
+  teaser: https://github.com/ShutdownRepo/pywhisker/blob/main/.assets/add_pem.png?raw=true
 --- 
 
 ## Giới thiệu PyWhisker 
