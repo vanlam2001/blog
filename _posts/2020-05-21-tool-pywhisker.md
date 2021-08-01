@@ -8,6 +8,7 @@ header:
 
 ## Giới thiệu PyWhisker 
 Tác giả: ShutdownRepo
+
 Khai thác [github/ShutdownRepo/pywhiske](https://github.com/ShutdownRepo/pywhisker)
 
 PyWhisker là một Python tương đương với [Whisker](https://github.com/eladshamir/Whisker) gốc do [Elad Shamir](https://twitter.com/elad_shamir) tạo ra và được viết bằng C#. Công cụ này cho phép người dùng thao tác thuộc tính `msDS-KeyCredentialLink` của người dùng / máy tính mục tiêu để có toàn quyền kiểm soát đối tượng đó. Nó dựa trên [Impacket](https://github.com/SecureAuthCorp/impacket) và trên Python tương đương với DSInternals của [Michael Grafnetter](https://twitter.com/MGrafnetter) được gọi là [PyDSInternals](https://github.com/p0dalirius/pydsinternals). Công cụ này, cùng với [PKINITtools](https://github.com/dirkjanm/PKINITtools) của [Dirk-jan](https://twitter.com/_dirkjan) cho phép khai thác hoàn toàn nguyên thủy chỉ trên các hệ thống dựa trên UNIX.
