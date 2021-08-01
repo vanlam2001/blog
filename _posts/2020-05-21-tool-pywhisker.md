@@ -39,6 +39,7 @@ pyWhisker hỗ trợ các xác thực sau
 + (Kerberos) [Pass-the-cache](https://www.thehacker.recipes/active-directory-domain-services/movement/kerberos/pass-the-cache) (type of [Pass-the-ticket](https://www.thehacker.recipes/active-directory-domain-services/movement/kerberos/pass-the-ticket))
 
 Trong số những thứ khác, pyWhisker hỗ trợ nhiều cấp độ chi tiết, chỉ cần thêm `-v`,`-vv`
+
 [![Language](https://img.shields.io/badge/Lang-python-blue.svg)](https://www.python.org/)
 
 ```powershell
