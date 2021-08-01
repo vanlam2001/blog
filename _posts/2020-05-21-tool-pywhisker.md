@@ -23,6 +23,7 @@ Tại sao một số yêu cầu trước?
 
 + Yêu cầu trước 1 và 2 vì các tính năng PKINIT đã được giới thiệu với Windows Server 2016
 + Yêu cầu trước 3 vì DC cần chứng chỉ và khóa của riêng nó để trao đổi khóa phiên trong giao dịch `AS_REQ <-> AS_REP`.
+
 A `KRB-ERROR (16) : KDC_ERR_PADATA_TYPE_NOSUPP` sẽ được nâng lên nếu yêu cầu trước 3 không được đáp ứng.
 
 Thông tin thêm về Shadow Credentials này
