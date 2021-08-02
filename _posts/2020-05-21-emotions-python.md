@@ -11,11 +11,12 @@ header:
 
 Tác giả: niebardzo
 
-Dự án được thực hiện như một phần của Luận văn Thạc sĩ về AGH. Mục đích của dự án là tạo ra ứng dụng nhận dạng cảm xúc với việc sử dụng các phương pháp Học máy. Để đạt được mục tiêu, một phần của tập dữ liệu Khuôn mặt cảm xúc được hướng dẫn bởi Karolinska ( KDEF ) đã được sử dụng. Bộ dữ liệu chứa các bức ảnh thể hiện từng cảm xúc (chỉ sử dụng hình ảnh chính diện - 980 mẫu; 140 mẫu cho mỗi cảm xúc). Để trích xuất thư viện dlib mốc khuôn mặt đã được sử dụng với mô hình được đào tạo trước để phát hiện mốc khuôn mặt.
+Dự án được thực hiện như một phần của Luận văn Thạc sĩ về AGH. Mục đích của dự án là tạo ra ứng dụng nhận dạng cảm xúc với việc sử dụng các phương pháp Học máy. Để đạt được mục tiêu, một phần của tập dữ liệu Khuôn mặt cảm xúc được hướng dẫn bởi Karolinska ( KDEF ) đã được sử dụng. Bộ dữ liệu chứa các bức ảnh thể hiện từng cảm xúc (chỉ sử dụng hình ảnh chính diện - 980 mẫu; 140 mẫu cho mỗi cảm xúc). Để trích xuất thư viện dlib mốc khuôn mặt đã được sử dụng với mô hình được đào tạo trước để phát hiện mốc khuôn mặt
 
-Máy dò mốc khuôn mặt có trong thư viện dlib là sự triển khai của Căn chỉnh khuôn mặt một phần nghìn giây với một bài báo về Cây hồi quy của Kazemi và Sullivan (2014). Bạn có thể tải xuống mốc này tại đây , cũng như nó được đưa vào kho lưu trữ dưới tên gọi models / shape.dat .
+Máy dò mốc khuôn mặt có trong thư viện dlib là sự triển khai của Căn chỉnh khuôn mặt một phần nghìn giây với một bài báo về Cây hồi quy của Kazemi và Sullivan (2014). Bạn có thể tải xuống mốc này tại đây , cũng như nó được đưa vào kho lưu trữ dưới tên gọi models / shape.dat 
 
-Phương pháp trích xuất các tính năng và chuẩn hóa đã được trình bày trong chương Trích xuất các tính năng. Các tính năng được trích xuất với nhãn là các đối tượng numpy được tuần tự hóa trong cơ sở dữ liệu thư mục . Mô hình phân loại cảm xúc cuối cùng được đăng nhiều kỳ dưới các mô hình / cảm xúc.joblib .
+Phương pháp trích xuất các tính năng và chuẩn hóa đã được trình bày trong chương Trích xuất các tính năng. Các tính năng được trích xuất với nhãn là các đối tượng numpy được tuần tự hóa trong cơ sở dữ liệu thư mục . Mô hình phân loại cảm xúc cuối cùng được đăng nhiều kỳ dưới các mô hình / cảm xúc.joblib 
+
 + GitHub ([niebardzo/Emotions](https://github.com/niebardzo/Emotions))
 
 ## Các yêu cầu 
