@@ -58,6 +58,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: true     # Enable comments in posts.
       share: true
       related: true
