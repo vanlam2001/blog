@@ -2,7 +2,8 @@
 title: CallObfuscator
 date: 4/8/2021
 layout: single
-teaser: https://raw.githubusercontent.com/d35ha/CallObfuscator/master/Images/pic6.png
+header:
+  teaser: https://raw.githubusercontent.com/d35ha/CallObfuscator/master/Images/pic6.png
 --- 
 
 ## CallObfuscator
