@@ -7,6 +7,7 @@ teaser: https://raw.githubusercontent.com/d35ha/CallObfuscator/master/Images/pic
 
 ## CallObfuscator
 Tác giả: d35ha
+
 Làm xáo trộn (ẩn) các nhập PE từ các công cụ phân tích tĩnh/động.
 
 ## Theory
