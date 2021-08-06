@@ -16,9 +16,8 @@ author:
   name: "Lam Nguyen"
   avatar: "/pics/78.jpg"
   bio: "Student"
-  - location: "VietNam"
-    url: "https://www.vntrip.vn/cam-nang/kham-pha-dao-thanh-can-gio-cuoi-tuan-53264"
-  links:
+   location: "VietNam"
+    links:
     - label: "HomePage"
       url: "https://blogth3pr0.github.io"
     - label: "Instagram"
