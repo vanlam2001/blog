@@ -15,7 +15,7 @@ search: true
 author:
   name: "Lam Nguyen"
   avatar: "/pics/78.jpg"
-  bio: "Student, District 1, Ho Chi Minh City "
+  bio: "Student, District 1, Ho Chi Minh City"
    location: "VietNam"
     links:
     - label: "HomePage"
