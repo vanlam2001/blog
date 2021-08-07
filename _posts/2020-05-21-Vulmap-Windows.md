@@ -35,14 +35,14 @@ powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://raw.gi
 
 | Thông số  | Sự miêu tả | 
 |---|---|
-| -OnlyExploitableVulns          | Tiến hành quét lỗ hổng bảo mật và chỉ hiển thị các lỗ hổng đã bị khai thác.
-| -Tải xuốngExploit <exploit_id> | Đã khai thác tải xuống.
-| -DownloadAllExploits           | Quét máy tính và tải xuống tất cả các khai thác có sẵn.
-| -ReadFromFile                  | Sử dụng tệp kiểm kê phần mềm thay vì quét máy tính cục bộ.
-| -SaveInventoryFile             | Lưu tệp kiểm kê phần mềm. Được kích hoạt tự động khi Chế độ là 'CollectInventory'.
-| -InventoryInFile               | Nhập tên tệp JSON do SaveInventoryFile giới thiệu. Mặc định là 'stock.json'.
-| -InventoryOutFile              | Tên tệp JSON đầu ra được ReadFromFile giới thiệu. Mặc định là 'stock.json'.
-| -Proxy                         | Xác định proxy HTTP. (-Proxy http://localhost: 8080)
+| OnlyExploitableVulns          | Tiến hành quét lỗ hổng bảo mật và chỉ hiển thị các lỗ hổng đã bị khai thác.
+| Tải xuốngExploit <exploit_id> | Đã khai thác tải xuống.
+| DownloadAllExploits           | Quét máy tính và tải xuống tất cả các khai thác có sẵn.
+| ReadFromFile                  | Sử dụng tệp kiểm kê phần mềm thay vì quét máy tính cục bộ.
+| SaveInventoryFile             | Lưu tệp kiểm kê phần mềm. Được kích hoạt tự động khi Chế độ là 'CollectInventory'.
+| InventoryInFile               | Nhập tên tệp JSON do SaveInventoryFile giới thiệu. Mặc định là 'stock.json'.
+| InventoryOutFile              | Tên tệp JSON đầu ra được ReadFromFile giới thiệu. Mặc định là 'stock.json'.
+| Proxy                         | Xác định proxy HTTP. (-Proxy http://localhost: 8080)
 
 
 
