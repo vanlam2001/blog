@@ -1,6 +1,6 @@
 ---
 title: Vulmap-Windows
-date: 8/7/2021
+date: 7/8/2021
 layout: single
 header:
   teaser: https://raw.githubusercontent.com/vulmon/Vulmap/master/Vulmap-Windows/vulmap-logo.png
