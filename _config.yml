@@ -16,26 +16,26 @@ author:
   name: "Lam Nguyen"
   avatar: "/pics/78.jpg"
   bio: "Student"
-   location: "VietNam"
-    links:
+  location: "VietNam"
+  links:
     - label: "HomePage"
-      url: "https://blogth3pr0.github.io"
+      url: "https://vanlam.tk"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/t153x/"
     - label: "About"
       icon: "fa fa-info-circle"
       url: "https://blogth3pr0.github.io/2021/06/29/about.html"
-    
 teaser: pics/blogth3pr0.jpg
+
 #Site Settings
 locale: "en-US en-Vietnamese"
-title: "Blogth3pr0"
+title: "VanLam"
 title_separator: "-"
-name: "Blogth3pr0"
-url: "https://blogth3pr0.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name: "VanLam"
+url: "https:/vanlam.tk" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: "blogth3pr0/blogth3pr0.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: "boku7/blogth3pr0.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 breadcrumbs: false # true, false (default)
 words_per_minute: 120
 
@@ -59,6 +59,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true     # Enable comments in posts.
+      comments: true
       share: true
       related: true
