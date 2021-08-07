@@ -33,16 +33,16 @@ powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://raw.gi
 ```
 [![usage gif](https://raw.githubusercontent.com/vulmon/Vulmap/master/Vulmap-Windows/uc.gif)](https://www.youtube.com/watch?v=y39w9WYYnmI)
 
-Thông số                       | Sự miêu tả
--------------------------------| -------------
--OnlyExploitableVulns          | Tiến hành quét lỗ hổng bảo mật và chỉ hiển thị các lỗ hổng đã bị khai thác.
--Tải xuốngExploit <exploit_id> | Đã khai thác tải xuống.
--DownloadAllExploits           | Quét máy tính và tải xuống tất cả các khai thác có sẵn.
--ReadFromFile                  | Sử dụng tệp kiểm kê phần mềm thay vì quét máy tính cục bộ.
--SaveInventoryFile             | Lưu tệp kiểm kê phần mềm. Được kích hoạt tự động khi Chế độ là 'CollectInventory'.
--InventoryInFile               | Nhập tên tệp JSON do SaveInventoryFile giới thiệu. Mặc định là 'stock.json'.
--InventoryOutFile              | Tên tệp JSON đầu ra được ReadFromFile giới thiệu. Mặc định là 'stock.json'.
--Proxy                         | Xác định proxy HTTP. (-Proxy http://localhost: 8080)
+Parameter                     | Description
+------------------------------| -------------
+-OnlyExploitableVulns         | Conducts a vulnerability scanning and only shows vulnerabilities that have exploits.
+-DownloadExploit <exploit_id> | Downloads given exploit.
+-DownloadAllExploits          | Scans the computer and downloads all available exploits.
+-ReadFromFile                 | Uses software inventory file rather than scanning local computer.
+-SaveInventoryFile            | Saves software inventory file. Enabled automatically when Mode is 'CollectInventory'.
+-InventoryInFile              | Input JSON file name referred by SaveInventoryFile. Default is 'inventory.json'.
+-InventoryOutFile             | Output JSON file name referred by ReadFromFile. Default is 'inventory.json'.
+-Proxy                        | Defines an HTTP proxy. (-Proxy http://localhost:8080)
 
 ## Các ví dụ
 * Chế độ mặc định. Tiến hành quét lỗ hổng bảo mật:
