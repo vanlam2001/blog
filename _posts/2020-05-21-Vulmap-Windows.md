@@ -20,7 +20,7 @@ Vulmap-[Windows](https://github.com/vulmon/Vulmap/blob/master/Vulmap-Windows)
 ![2](https://raw.githubusercontent.com/vulmon/Vulmap/master/Vulmap-Windows/iki.jpg)
 
 ## Sử dụng
-Cách sử dụng được đề xuất là dán mã tại (https://github.com/vulmon/Vulmap/blob/master/Vulmap-Windows/vulmap-windows.ps1)[https://github.com/vulmon/Vulmap/blob/master/Vulmap-Windows/vulmap-windows.ps1] hoặc lệnh bên dưới vào thiết bị đầu cuối powershell
+Cách sử dụng được đề xuất là dán mã tại (vulmap-windows.ps1)[https://github.com/vulmon/Vulmap/blob/master/Vulmap-Windows/vulmap-windows.ps1] hoặc lệnh bên dưới vào thiết bị đầu cuối powershell
 
 ```powershell
 iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/vulmon/Vulmap/master/Vulmap-Windows/vulmap-windows.ps1')
