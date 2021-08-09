@@ -11,7 +11,7 @@ Tác giả: Tylous
 
 SourcePoint là một trình tạo hồ sơ C2 đa hình cho các C2 Cobalt Strike, được viết bằng Go. SourcePoint cho phép các cấu hình C2 duy nhất được tạo nhanh chóng giúp giảm các Chỉ số Thỏa hiệp ("IoC") của chúng tôi và cho phép người vận hành tạo ra các cấu hình phức tạp với nỗ lực tối thiểu. Điều này được thực hiện bằng cách xem xét rộng rãi các [Bài viết](https://www.cobaltstrike.com/help-malleable-c2) cũng như [Ghi chú](https://www.cobaltstrike.com/releasenotes.txt) bản vá để xác định các chức năng chính và các tính năng có thể sửa đổi. SourcePoint được thiết kế với mục đích giải quyết vấn đề làm thế nào để làm cho hoạt động C2 của chúng tôi khó bị phát hiện hơn, tập trung vào việc chuyển từ các IoC độc hại sang các IoC đáng ngờ. Mục tiêu ở đây là việc phát hiện C2 của chúng ta sẽ khó hơn nếu các IoC của chúng ta không có bản chất độc hại và yêu cầu nghiên cứu bổ sung để phát hiện ra bản chất đáng ngờ. SourcePoint chứa nhiều tùy chọn có thể định cấu hình khác nhau để chọn để sửa đổi hồ sơ của bạn (trong hầu hết các trường hợp, nếu để trống, SourcePoint sẽ ngẫu nhiên chọn chúng cho bạn). Các cấu hình được tạo sẽ sửa đổi tất cả các khía cạnh của C2 của bạn. Mục tiêu của dự án này là không chỉ hỗ trợ phá vỡ các biện pháp kiểm soát dựa trên phát hiện mà còn giúp hòa trộn lưu lượng và hoạt động C2 vào môi trường, làm cho hoạt động nói trên khó bị phát hiện.
 
-+ [github.com/Tylous/SourcePoint](https://github.com/Tylous/SourcePoint)
+[github.com/Tylous/SourcePoint](https://github.com/Tylous/SourcePoint)
 ## Ảnh chụp màn hình
 
 ![1](https://raw.githubusercontent.com/Tylous/SourcePoint/main/Screenshots/C2int_p1.png)
