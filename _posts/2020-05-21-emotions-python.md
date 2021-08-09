@@ -17,7 +17,7 @@ Máy dò mốc khuôn mặt có trong thư viện dlib là sự triển khai c�
 
 Phương pháp trích xuất các tính năng và chuẩn hóa đã được trình bày trong chương Trích xuất các tính năng. Các tính năng được trích xuất với nhãn là các đối tượng numpy được tuần tự hóa trong cơ sở dữ liệu thư mục . Mô hình phân loại cảm xúc cuối cùng được đăng nhiều kỳ dưới các mô hình / cảm xúc.joblib 
 
-+ GitHub ([niebardzo/Emotions](https://github.com/niebardzo/Emotions))
+GitHub ([niebardzo/Emotions](https://github.com/niebardzo/Emotions))
 
 ## Các yêu cầu 
 Phần mềm đã được thử nghiệm trên Ubuntu 18.04. * LTS với Python 3.6. * Được cài đặt.
