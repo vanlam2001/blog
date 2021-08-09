@@ -13,7 +13,7 @@ SourcePoint là một trình tạo hồ sơ C2 đa hình cho các C2 Cobalt Stri
 
 + [github.com/Tylous/SourcePoint](https://github.com/Tylous/SourcePoint)
 ## Ảnh chụp màn hình
-![1](https://github.com/Tylous/SourcePoint/blob/main/Screenshots/C2int_p1.png)
+![1](https://raw.githubusercontent.com/Tylous/SourcePoint/main/Screenshots/C2int_p1.png)
 
 ![2](https://raw.githubusercontent.com/Tylous/SourcePoint/main/Screenshots/C2int_p2.png)
 
