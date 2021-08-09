@@ -255,7 +255,7 @@ Chế độ cấu hình 1-4 có thể được sử dụng mà không cần SSL 
 ## DNS
 Hiện tùy chỉnh DNS không được cung cấp trực tiếp thông qua SourcePoint. Để vẫn cho phép các beacon dựa trên dns, có một phần nhận xét cho dns-beacon trong mọi hồ sơ được tạo.
 
-- [] Add More Profiles
-- [] DNS Staging
+- [x] Add More Profiles
+- [x] DNS Staging
 
 ## Thanks
