@@ -10,7 +10,7 @@ plugins:
   - jekyll-seo-tag
 logo: ""
 masthead_title: "HomePage"
-search: true
+search: true 
 # Site Author
 author:
   name: "Lam Nguyen"
