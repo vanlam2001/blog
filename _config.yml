@@ -35,7 +35,7 @@ title_separator: "-"
 name: "VanLam"
 url: "https:/vanlam.tk" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: "boku7/blogth3pr0.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: "blogth3pr0/blogth3pr0.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 breadcrumbs: false # true, false (default)
 words_per_minute: 120
 
