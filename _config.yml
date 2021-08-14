@@ -33,7 +33,7 @@ locale: "en-US en-Vietnamese"
 title: "VanLam"
 title_separator: "-"
 name: "VanLam"
-url: "https:/vanlam.tk" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https:/blogth3pr0.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "blogth3pr0/blogth3pr0.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 breadcrumbs: false # true, false (default)
