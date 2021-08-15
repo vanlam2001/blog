@@ -71,7 +71,7 @@ Các cổng được quét
 + Port 80 - HTTP
 + Port 443 - HTTPS
 
-Nhìn vào kết quả `nmap`, chúng ta có thể thấy chứng chỉ TLS có các mục `DNS laboratory.htb` và `git.laboratory.htb` do đó chúng tôi thêm cả hai máy chủ ảo vào /etc/hosts
+Nhìn vào kết quả `nmap`, chúng ta có thể thấy chứng chỉ TLS có các mục `DNS laboratory.htb` và `git.laboratory.htb` do đó tác giảthêm cả hai máy chủ ảo vào /etc/hosts
 
 ## Cổng 443: Website
 Truy cập trang web trên Cổng 80 chuyển hướng  đến trang web HTTPS:
@@ -83,13 +83,13 @@ Trang web có tiêu đề là `Phòng thí nghiệm` - Nhà cung cấp dịch v�
 Lướt qua trang web theo cách thủ công và ffuf không tiết lộ bất cứ điều gì thú vị
 
 ## Cổng 443: Trên GitLab
-Tại `git.laboratory.htb`, chúng tôi tìm thấy một phiên bản của phiên bản cộng đồng GitLab
+Tại `git.laboratory.htb`, tác giả tìm thấy một phiên bản của phiên bản cộng đồng GitLab
 
 ![3](https://coldfusionx.github.io/assets/img/Posts/Laboratory/gitlab.png)
 
 Vì tác giả  chưa có bất kỳ tín dụng hoặc tên người dùng nào được liên kết với hộp này, vào đó tác giả  sẽ sử dụng chức năng Đăng ký để đăng ký tài khoản cho chính mình
 
-Chức năng Đăng ký dường như chấp nhận đăng ký với miền email `laboratory.htb` do đó chúng tôi sử dụng `cfx@laboratory.htb`
+Chức năng Đăng ký dường như chấp nhận đăng ký với miền email `laboratory.htb` do đó tác giả  sử dụng `cfx@laboratory.htb`
 
 ![3](https://coldfusionx.github.io/assets/img/Posts/Laboratory/register.png)
 
@@ -159,7 +159,7 @@ gitlab-consul:x:991:991::/var/opt/gitlab/consul:/bin/sh -
 ```
 
 ## LFI -> RCE
-Báo cáo [HackerOne](https://hackerone.com/reports/827052) cũng cho thấy cách chúng tôi có thể tận dụng LFI để Thực thi mã từ xa khai thác lỗ hổng Deserialization bên trong cookie `Experimentation_subject_id`
+Báo cáo [HackerOne](https://hackerone.com/reports/827052) cũng cho thấy cách tác giả  có thể tận dụng LFI để Thực thi mã từ xa khai thác lỗ hổng Deserialization bên trong cookie `Experimentation_subject_id`
 
 Bước 1: Nắm bắt bí mật.yml:
 
@@ -188,7 +188,7 @@ production:
 [..SNIP..]
 ```
 
-Giá trị `secret_key_base` là giá trị mà chúng tôi quan tâm để thực hiện cuộc tấn công này
+Giá trị `secret_key_base` là giá trị mà tác giả quan tâm để thực hiện cuộc tấn công này
 
 ```powershell
 secret_key_base: 3231f54b33e0c1ce998113c083528460153b19542a70173b4458a21e845ffa33cc45ca7486fc8ebb6b2727cc02feea4c3adbe2cc7b65003510e4031e164137b3
@@ -196,7 +196,7 @@ secret_key_base: 3231f54b33e0c1ce998113c083528460153b19542a70173b4458a21e845ffa3
 
 Bước 2: Nhân rộng Môi trường GitLab CE 12.8.1\
 
-Tiếp theo, để xây dựng tải trọng Deserialization, chúng ta cần tạo ra một bản sao của cá thể GitLab dễ bị tấn công. Chúng tôi sẽ sử dụng docker để làm như vậy
+Tiếp theo, để xây dựng tải trọng Deserialization, chúng ta cần tạo ra một bản sao của cá thể GitLab dễ bị tấn công. tác giả sẽ sử dụng docker để làm như vậy
 
 + Cài đặt docker: `sudo apt install docker.io`
 + Kéo hình ảnh GitLab dễ bị tổn thương: `docker pull gitlab/gitlab-ce:12.8.1-ce.0` 
@@ -374,7 +374,7 @@ drwxr-xr-x   5 root root  340 Apr 21 05:04 dev
 drwxr-xr-x   1 root root 4096 Jul  2  2020 etc
 [..SNIP..]
 ```
-Bây giờ, cách tiếp cận tiếp theo của chúng tôi là thoát khỏi vùng chứa này hoặc nâng cao các đặc quyền để root trong vùng chứa này, tuy nhiên không có điều nào trong số đó là khả thi ở đây
+Bây giờ, cách tiếp cận tiếp theo của tác giả là thoát khỏi vùng chứa này hoặc nâng cao các đặc quyền để root trong vùng chứa này, tuy nhiên không có điều nào trong số đó là khả thi ở đây
 
 ## GitLab - Quyền truy cập Dự án SecureDocker
 Vì chúng ta đang ở bên trong vùng chứa GitLab, chúng ta có thể sử dụng bảng điều khiển Gitlab-rails để thao tác dữ liệu người dùng GitLab: Đây là một số Cheatsheet mà tôi đã tham khảo ban đầu: [Cheatsheet1](https://docs.gitlab.com/ee/administration/troubleshooting/gitlab_rails_cheat_sheet.html) & [Cheatsheet](https://docs.gitlab.com/ee/security/reset_user_password.html)
@@ -405,7 +405,7 @@ cfx.save
 
 ![13](https://coldfusionx.github.io/assets/img/Posts/Laboratory/adm.png)
 
-Giờ đây, chúng tôi có thể thấy biểu tượng quản trị viên trên tài khoản của mình, do đó chúng tôi hiện có thể truy cập Dự án `SecureDocker` của Dexter
+Giờ đây, tác giả có thể thấy biểu tượng quản trị viên trên tài khoản của mình, do đó tác giả hiện có thể truy cập Dự án `SecureDocker` của Dexter
 
 ## Đặt lại mật khẩu - Dexter
 Tác giả thấy Dexter là quản trị viên duy nhất, vì vậy tác giả thậm chí có thể đặt lại mật khẩu của anh ấy
@@ -437,7 +437,7 @@ Bây giờ chúng ta có thể đăng nhập vào GitLab với tư cách là dex
 
 ![14](https://coldfusionx.github.io/assets/img/Posts/Laboratory/dexter.png)
 
-Bên trong dự án, điều đầu tiên chúng tôi tìm thấy là một todo.txt có vẻ là một loại danh sách nhiệm vụ đang chờ xử lý:
+Bên trong dự án, điều đầu tiên tác giả tìm thấy là một todo.txt có vẻ là một loại danh sách nhiệm vụ đang chờ xử lý:
 
 ```shell
 # DONE: Secure docker for regular users
@@ -474,7 +474,7 @@ dexter@laboratory:~$ cat user.txt
 
 ## Enumeration
 
-Tìm kiếm mã nhị phân `SUID`, chúng tôi tìm thấy một trong `/usr/local/bin/`
+Tìm kiếm mã nhị phân `SUID`, tác giả tìm thấy một trong `/usr/local/bin/`
 
 > `usr/local/bin` là vị trí cho tất cả các tệp thi hành bổ trợ mà bạn thêm vào hệ thống sẽ được tất cả người dùng sử dụng làm tệp hệ thống chung nhưng không phải là tệp chính thức được HĐH hỗ trợ
 
