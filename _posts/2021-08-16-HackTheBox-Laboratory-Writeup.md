@@ -9,7 +9,7 @@ header:
 
 ![1](https://coldfusionx.github.io/assets/img/Posts/Laboratory.png)
 
-## Mô tả 
+# Mô tả 
 Tác giả: Mayank Deshmukh
 
 > Phòng thí nghiệm bắt đầu với việc phát hiện ra một phiên bản GitLab dễ bị tấn công đang chạy trên hộp. Tác giả  sẽ tham khảo một báo cáo của HackerOne để khai thác một CVE được liên kết với nó để lấy lỗ hổng đọc tệp tùy ý và xâu chuỗi nó lại để nhận được thực thi Mã từ xa trên vùng chứa GitLab. Tiếp theo, tác giả sử dụng bảng điều khiển Gitlab rails để thao tác dữ liệu người dùng đang hoạt động và giành quyền truy cập vào kho lưu trữ riêng tư của quản trị viên, nơi tác giả phát hiện ra khóa SSH. Đối với các đặc quyền leo thang để root, tác giả khai thác tệp nhị phân SUID không gọi tệp nhị phân chmod từ đường dẫn tuyệt đối của nó, tác giả mạo tệp nhị phân chmod độc hại, cập nhật PATH dẫn đến việc nó chạy dưới dạng root.
