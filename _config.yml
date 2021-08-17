@@ -16,7 +16,7 @@
 title: ""
 #subtitle: blogth3pr0.github.io
 title_separator: "-"
-logo: /pics/blogth3pr0.jpg 
+logo: /pics/blogth3pr0.jpg   
 email: xth3pr0@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
 
@@ -66,9 +66,9 @@ author:
   location : "VietNam"
   email  : "xth3pr0@protonmail.com"
   links:
-     - label: "Instagram"
+    - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/t153x/"
+      url: "https://www.instagram.com/"
     
 
 
