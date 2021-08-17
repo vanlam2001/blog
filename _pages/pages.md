@@ -1,6 +1,0 @@
----
-permalink: /pages/
-title: "Pages"
----
-
-
