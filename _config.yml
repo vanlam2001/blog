@@ -66,6 +66,8 @@ author:
   location : "VietNam"
   email  : "xth3pr0@protonmail.com"
   links:
+    - label: "HomePage"
+      url: "https://vanlam.tk"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/t153x/"
