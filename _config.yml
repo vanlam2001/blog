@@ -66,11 +66,7 @@ author:
   location : "VietNam"
   email  : "xth3pr0@protonmail.com"
   links:
-    
-    
-    
-    
-    - label: "Instagram"
+     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/"
     
