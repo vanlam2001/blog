@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: ""
-#subtitle: blogth3pr0.github.io
+#subtitle: vanlam.tk
 title_separator: "HomePage"
 logo:  
 email: xth3pr0@protonmail.com
