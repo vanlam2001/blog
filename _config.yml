@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "VanLam"
 #subtitle: blogth3pr0.github.io
-title_separator: "HomePage"
+title_separator: "-"
 logo: /pics/blogth3pr0.jpg   
 email: xth3pr0@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
