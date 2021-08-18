@@ -62,7 +62,8 @@ plugins:
 author:
   name   : "Lam Nguyen"
   avatar : "/pics/78.jpg"
-  bio    : "Student district 1"
+  bio    : "Student district 1<br>
+            2001<br>"
   location : "VietNam"
   email  : "xth3pr0@protonmail.com"
   links:
