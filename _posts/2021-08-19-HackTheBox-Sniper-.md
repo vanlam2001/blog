@@ -7,6 +7,7 @@ header:
 --- 
 
 ![1](https://snowscan.io/assets/images/htb-writeup-sniper/sniper_logo.png)
+
 Tác giả: Snowscan
 
 > Sniper là một hộp khác mà có quyền truy cập thông qua một phương pháp ngoài ý muốn. Ứng dụng PHP không được cho là có thể khai thác được thông qua Bao gồm tệp từ xa nhưng vì nó chạy trên Windows, tác giả có thể sử dụng đường dẫn UNC để bao gồm tệp từ chia sẻ SMB. Sau khi có một trình bao, xoay vòng bằng cách sử dụng plink và đăng nhập với tư cách là người dùng Chris với WinRM. Tác giả hộp đã đủ tốt để để lại gợi ý về loại trọng tải độc hại nào được mong đợi và tác giả đã sử dụng Nishang để tạo tải trọng CHM và nhận quyền truy cập Quản trị viên.
