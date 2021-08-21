@@ -13,7 +13,7 @@ Nhiều sản phẩm Hệ thống tự động hóa Altus
 
  1. Nexto NX30xx Series 
  2. Nexto NX5xxx Series 
- 3. Nexto Xpress XP3xx Series | 
+ 3. Nexto Xpress XP3xx Series 
  4. Hadron Xtorm HX3040 Series 
 
 
