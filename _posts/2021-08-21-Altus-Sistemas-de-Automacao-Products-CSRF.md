@@ -11,12 +11,10 @@ Tác giả: D. Teuchert T. Weber (Office Vienna)
          
 Nhiều sản phẩm Hệ thống tự động hóa Altus 
 
-| --- | 
- 
-| Nexto NX30xx Series |
-| Nexto NX5xxx Series |
-| Nexto Xpress XP3xx Series | 
-| Hadron Xtorm HX3040 Series |
+ 1. Nexto NX30xx Series 
+ 2. Nexto NX5xxx Series 
+ 3. Nexto Xpress XP3xx Series | 
+ 4. Hadron Xtorm HX3040 Series 
 
 
 + CVE number: CVE-2021-39243, CVE-2021-39243, CVE-2021-39243
