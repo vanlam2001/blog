@@ -39,9 +39,7 @@ SEC Consult khuyến nghị thực hiện đánh giá bảo mật kỹ lưỡng 
 
 2. Truy vấn yêu cầu trên nhiều trang web (CSRF) (CVE-2021-39243) Giao diện web được sử dụng để đặt tất cả các cấu hình dễ bị tấn công các cuộc tấn công giả mạo yêu cầu trên nhiều trang web. Kẻ tấn công có thể thay đổi cài đặt theo cách này bằng cách dụ nạn nhân vào một trang web độc hại
 
-3. Thông tin đăng nhập được mã hóa cứng cho Điểm cuối CGI (CVE-2021-39245) Tập lệnh getlogs.cgi được bảo vệ bằng htaccess độc quyền bằng mã cứng thông tin xác thực. Chúng được chia sẻ với tất cả các hình ảnh phần sụn từ dòng NX30xx, HX30xx và XP3xx.Các thông tin đăng nhập được mã hóa cứng này có thể được sử dụng để truy cập thiết bị không có tài khoản người dùng hợp lệ ở cấp ứng dụng và không thể thay đổi trong giao diện người dùng
-
-Kết hợp với lỗ hổng 1), thỏa hiệp hoàn toàn ở cấp hệ thống với điều kiện tiên quyết duy nhất là truy cập mạng có thể được thực hiện
+3. Thông tin đăng nhập được mã hóa cứng cho Điểm cuối CGI (CVE-2021-39245) Tập lệnh getlogs.cgi được bảo vệ bằng htaccess độc quyền bằng mã cứng thông tin xác thực. Chúng được chia sẻ với tất cả các hình ảnh phần sụn từ dòng NX30xx, HX30xx và XP3xx.Các thông tin đăng nhập được mã hóa cứng này có thể được sử dụng để truy cập thiết bị không có tài khoản người dùng hợp lệ ở cấp ứng dụng và không thể thay đổi trong giao diện người dùng. Kết hợp với lỗ hổng 1), thỏa hiệp hoàn toàn ở cấp hệ thống với điều kiện tiên quyết duy nhất là truy cập mạng có thể được thực hiện
 
 4. Các thành phần phần mềm lỗi thời và dễ bị tổn thương Quá trình quét tĩnh với Trình kiểm tra IoT đã tiết lộ các gói phần mềm lỗi thời được sử dụng trong chương trình cơ sở của thiết bị
 
