@@ -146,7 +146,7 @@ auth.require = ( "/cgi/getlogs.cgi" =>
 )
 ```
 
-Các thành phần phần mềm lỗi thời và dễ bị tổn thương Dựa trên quá trình quét tự động với Trình kiểm tra IoT của bên thứ ba sau gói phần mềm đã lỗi thời:
+Các thành phần phần mềm lỗi thời và dễ bị tổn thương dựa trên quá trình quét tự động với, trình kiểm tra IoT của bên thứ ba sau gói phần mềm đã lỗi thời:
 
 ```powershell
 Altus/Beijer XP3xx:
