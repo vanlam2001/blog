@@ -282,7 +282,7 @@ Altus/Beijer Nexto NX5210 / 1.1.2.8
 
 + 2021-06-15: Đặt ngày phát hành là ngày 1 tháng 8.
 
-2021-07-28: Nhà cung cấp đã gửi số phiên bản cho phần sụn cố định và yêu cầu
++ 2021-07-28: Nhà cung cấp đã gửi số phiên bản cho phần sụn cố định và yêu cầu
              hoãn việc phát hành đến ngày 6 tháng 8 để hoàn thành
              tài liệu.
 
