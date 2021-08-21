@@ -10,7 +10,7 @@ header:
 Tác giả: D. Teuchert T. Weber (Office Vienna) 
          
 | Nhiều sản phẩm Hệ thống tự động hóa Altus | 
-|                   ---                     | 
+| --- | 
  
 | Nexto NX30xx Series |
 | Nexto NX5xxx Series |
