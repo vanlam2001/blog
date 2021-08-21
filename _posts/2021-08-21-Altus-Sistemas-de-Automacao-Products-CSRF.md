@@ -24,7 +24,7 @@ Nhiều sản phẩm Hệ thống tự động hóa Altus
 + [sec-consult.com](https://www.sec-consult.com)
 
 ## Mô tả nhà cung cấp
-Là một tham chiếu tài liệu cho thị trường tự động hóa trong hơn 35 năm, Altus Sistemas de Automação S.A. cung cấp một dòng sản phẩm hoàn chỉnh nhiều đáp ứng ,nhiều nhu cầu của khách hàng trong một số lĩnh vực trong nước và quốc tế thị trường. Được phát triển với công nghệ riêng, các giải pháp mang lại giá trị gia tăng cao cho khách hàng doanh nghiệp, cho phép năng suất an toàn và tin cậy tự động hóa ứng dụng và tự động hóa công việc
+Là một tham chiếu tài liệu cho thị trường tự động hóa trong hơn 35 năm, Altus Sistemas de Automação S.A. cung cấp một dòng sản phẩm hoàn chỉnh nhiều đáp ứng, nhiều nhu cầu của khách hàng trong một số lĩnh vực trong nước và quốc tế thị trường. Được phát triển với công nghệ riêng, các giải pháp mang lại giá trị gia tăng cao cho khách hàng doanh nghiệp, cho phép năng suất an toàn và tin cậy tự động hóa ứng dụng và tự động hóa công việc
 
 Thành viên của Parit Joinações một công ty mẹ trong lĩnh vực công nghệ, lĩnh vực này cũng kiểm soát Teikon S.A., một công ty có hoạt động trên thị trường sản xuất điện tử và RT Tecnologia Médica, một công ty hoạt động trong thị trường X quang
 
