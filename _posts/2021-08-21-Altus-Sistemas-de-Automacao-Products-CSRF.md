@@ -18,7 +18,7 @@ Nhiều sản phẩm Hệ thống tự động hóa Altus
  4. Hadron Xtorm HX3040 Series 
 
 
-+ CVE number: CVE-2021-39243, CVE-2021-39243, CVE-2021-39243
++ CVE number: CVE-2021-39243
 + homepage: https://www.altus.com.br/
 + found: 2020-05-20
 + [sec-consult.com](https://www.sec-consult.com)
