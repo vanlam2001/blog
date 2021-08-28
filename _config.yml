@@ -68,9 +68,6 @@ author:
   links:
     - label: "HomePage"
       url: "https://vanlam.tk"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook"
-      url: "https://www.facebook.com/cihpc/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/t153x/"
