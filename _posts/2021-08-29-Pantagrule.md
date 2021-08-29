@@ -9,6 +9,8 @@ header:
 ![1](https://opengraph.githubassets.com/23cb3696b69656a05b034fd8989cebcc37ef867e87358e4011aa6597a17cefcf/rarecoil/pantagrule)
 
 ## Mô Tả
+Tác giả: rarecoil
+
 Bộ quy tắc hashcat gargantuan được tạo từ mật khẩu bị xâm phạm
 
 > Cảnh báo bảo trì dự án: Dự án này được coi là đã hoàn thành. Không có yêu cầu kéo hoặc thay đổi nào được thực hiện đối với dự án này trong tương lai trừ khi chúng là lỗi hoặc di chuyển thực sự để cho phép các quy tắc này hoạt động với các phiên bản mới hơn của hashcat.
