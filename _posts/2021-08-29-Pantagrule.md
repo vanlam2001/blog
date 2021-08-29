@@ -27,8 +27,11 @@ Khi các bộ quy tắc lớn như vậy được cung cấp thông qua PACK, h�
 Bốn loại tối ưu hóa đã được tạo:
 
 +`popular.rule`: pantagrule.1m chạy với 25.000.000 mật khẩu hàng đầu của bộ HIBP.
+
 +`random.rule`: pantagrule.1m chạy với 25.000.000 mật khẩu được chọn ngẫu nhiên từ bộ HIBP.
+
 +`hybrid.rule`: Danh sách được sắp xếp gồm sự kết hợp của các quy tắc ngẫu nhiên và phổ biến thành công nhất, sau đó được cắt làm đôi, nhằm tạo ra một bộ quy tắc "cân bằng" nhẹ hơn, hoạt động trên một tập mẫu lớn hơn.
+
 +`one.rule`:Một phiên bản của OneRuleToRuleThemAll trong đó các quy tắc kết hợp hoạt động hàng đầu được thêm vào và danh sách được cắt ngắn theo kích thước của bộ quy tắc bổ sung. Điều thú vị là chỉ có một vài nghìn quy tắc trùng lặp với các quy tắc OneRuleToRuleThemAll và Pantagrule, làm cho hai chiến lược này bổ sung cho nhau. Pantagrule của một hoạt động tốt hơn so với các danh sách đã biết khác có kích thước này và bạn nên bắt đầu với bộ quy tắc này trước khi thử một trong các biến thể lớn hơn
 
 ## Pantagrule hashorg.v6
@@ -86,7 +89,9 @@ Ngay cả tác giả của Quy tắc tổng hợp Một quy tắc để cai tr�
 
 ## Trích dẫn
 1. Rabelais, F. (1532). [Pantagruel](https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel). Paris: Libr. générale française.
+
 2. _NSAKEY. (2014). NSAKEY/nsa-rules. [online] Available at: [NSAKEY/nsa-rules](https://github.com/NSAKEY/nsa-rules) [Accessed 4 Oct. 2019].
+
 3. Hunt, W. (2017). One Rule to Rule Them All. [online] Available at: [https://www.notsosecure.com/one-rule-to-rule-them-all/](https://notsosecure.com/one-rule-to-rule-them-all/) [Accessed 4 Oct. 2019].
 
 ## Giấy phép
