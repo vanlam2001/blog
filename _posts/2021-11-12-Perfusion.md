@@ -15,10 +15,10 @@ Trong __Windows 7__, __Windows Server 2008R2__, __Windows 8__, và __Windows Ser
 
 Công cụ này nhằm giúp các nhà tư vấn bảo mật trong quá trình kiểm tra thâm nhập. Phần mềm này được cung cấp nguyên trạng và tác giả có thể sẽ không cung cấp bất kỳ hỗ trợ nào. Mặc dù vậy, tôi đã thử nghiệm nó kỹ lưỡng trên ba máy ảo khác nhau nên không có vấn đề gì đáng kể.
 
-Một bài phân tích chi tiết về nó: [https://itm4n.github.io/windows-registry-rpceptmapper-eop/](https://itm4n.github.io/windows-registry-rpceptmapper-eop/)
+Một bài phân tích chi tiết về nó: [windows-registry-rpceptmapper-eop/](https://itm4n.github.io/windows-registry-rpceptmapper-eop/)
 
 <p align="center">
-  <img src="demo.gif">
+  <img src="https://raw.githubusercontent.com/itm4n/Perfusion/master/demo.gif">
 </p>
 
 ## Nguồn thông tin: 2021-04-21 Cập nhật
