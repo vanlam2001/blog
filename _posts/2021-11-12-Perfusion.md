@@ -1,5 +1,5 @@
 ---
-title: Perfusion
+title: Perfusion Demo
 date: 12/11/2021
 layout: single
 header:
@@ -11,9 +11,9 @@ Tác giả: itm4n
 
 Mã Nguồn: [itm4n/Perfusion](https://github.com/itm4n/Perfusion) 
 
-Trong __Windows 7__, __Windows Server 2008R2__, __Windows 8__, và __Windows Server 2012__, khóa đăng ký của dịch vụ `RpcEptMapper` và` DnsCache` (chỉ dành cho 7 / 2008R2) được định cấu hình với quyền yếu. Bất kỳ người dùng cục bộ nào cũng có thể tạo khóa con `Performance` và sau đó tận dụng ___Windows Performance Counters___ để tải một DLL tùy ý trong ngữ cảnh của dịch vụ WMI là` NT AUTHORITY \ SYSTEM` (do đó có tên là công cụ).
+ + Trong __Windows 7__, __Windows Server 2008R2__, __Windows 8__, và __Windows Server 2012__, khóa đăng ký của dịch vụ `RpcEptMapper` và` DnsCache` (chỉ dành cho 7 / 2008R2) được định cấu hình với quyền yếu. Bất kỳ người dùng cục bộ nào cũng có thể tạo khóa con `Performance` và sau đó tận dụng ___Windows Performance Counters___ để tải một DLL tùy ý trong ngữ cảnh của dịch vụ WMI là` NT AUTHORITY \ SYSTEM` (do đó có tên là công cụ).
 
-Công cụ này nhằm giúp các nhà tư vấn bảo mật trong quá trình kiểm tra thâm nhập. Phần mềm này được cung cấp nguyên trạng và tác giả có thể sẽ không cung cấp bất kỳ hỗ trợ nào. Mặc dù vậy, tôi đã thử nghiệm nó kỹ lưỡng trên ba máy ảo khác nhau nên không có vấn đề gì đáng kể.
++ Công cụ này nhằm giúp các nhà tư vấn bảo mật trong quá trình kiểm tra thâm nhập. Phần mềm này được cung cấp nguyên trạng và tác giả có thể sẽ không cung cấp bất kỳ hỗ trợ nào. Mặc dù vậy, tôi đã thử nghiệm nó kỹ lưỡng trên ba máy ảo khác nhau nên không có vấn đề gì đáng kể.
 
 Một bài phân tích chi tiết về nó: [windows-registry-rpceptmapper-eop/](https://itm4n.github.io/windows-registry-rpceptmapper-eop/)
 
@@ -23,7 +23,7 @@ Một bài phân tích chi tiết về nó: [windows-registry-rpceptmapper-eop/]
 
 ## Nguồn thông tin: 2021-04-21 Cập nhật
 
-Theo [0patch](https://twitter.com/0patch/status/1384495698373120002), lỗ hổng này đã được sửa một phần với Bản cập nhật Windows tháng 4 năm 2021 (ESU). Điều này có nghĩa là các máy chạy phiên bản cập nhật của Windows 8 / Server 2012 sẽ không thể khai thác được nữa. Tuy nhiên, Windows 7 / Server 2008 R2 vẫn dễ bị tấn công. Bạn chỉ cần sử dụng khóa đăng ký `Dnscache` hơn là `RpcEptMapper`. Tôi đã cập nhật PoC để bạn có thể chỉ định thủ công bằng tùy chọn `-k`.
++ Theo [0patch](https://twitter.com/0patch/status/1384495698373120002), lỗ hổng này đã được sửa một phần với Bản cập nhật Windows tháng 4 năm 2021 (ESU). Điều này có nghĩa là các máy chạy phiên bản cập nhật của Windows 8 / Server 2012 sẽ không thể khai thác được nữa. Tuy nhiên, Windows 7 / Server 2008 R2 vẫn dễ bị tấn công. Bạn chỉ cần sử dụng khóa đăng ký `Dnscache` hơn là `RpcEptMapper`. Tôi đã cập nhật PoC để bạn có thể chỉ định thủ công bằng tùy chọn `-k`.
 
 ```powershell
 C:\Temp>Perfusion.exe -c cmd -i
@@ -99,12 +99,12 @@ Các phiên bản Windows sau dễ bị tấn công:
 | Windows 8 | RpcEptMapper |
 | Windows Server 2012 | RpcEptMapper |
 
-Theo những gì tôi được biết, lỗ hổng này sẽ không được Microsoft sửa chữa vì một số lý do. Giải pháp tốt nhất vẫn là nâng cấp lên Windows 10 / Server 2019 nhưng nếu đó không phải là lựa chọn ngắn hạn, bạn vẫn có thể tự vá sự cố này bằng cách xóa quyền `CreateSubKey` cho cả `NT AUTHORITY\Authenticated Users` và `BUILTIN\Users` trên các khóa đăng ký sau:
++ Theo những gì tôi được biết, lỗ hổng này sẽ không được Microsoft sửa chữa vì một số lý do. Giải pháp tốt nhất vẫn là nâng cấp lên Windows 10 / Server 2019 nhưng nếu đó không phải là lựa chọn ngắn hạn, bạn vẫn có thể tự vá sự cố này bằng cách xóa quyền `CreateSubKey` cho cả `NT AUTHORITY\Authenticated Users` và `BUILTIN\Users` trên các khóa đăng ký sau:
 
 - `HKLM\SYSTEM\CurrentControlSet\Services\RpcEptMapper`
 - `HKLM\SYSTEM\CurrentControlSet\Services\DnsCache`
 
-Tác giả đã tạo bản vá cho lỗ hổng bảo mật này dưới dạng tập lệnh PowerShell: [RegistryPatch.ps1] (RegistryPatch.ps1). Tập lệnh này loại bỏ `CreateSubKey` ngay trên hai khóa đăng ký nêu trên cho các danh tính sau:` NT AUTHORITY \ INTERACTIVE`, `BUILTIN \ Users` và / hoặc` BUILTIN \ Authenticated Users`
++ Tác giả đã tạo bản vá cho lỗ hổng bảo mật này dưới dạng tập lệnh PowerShell: [RegistryPatch.ps1] (RegistryPatch.ps1). Tập lệnh này loại bỏ `CreateSubKey` ngay trên hai khóa đăng ký nêu trên cho các danh tính sau:` NT AUTHORITY \ INTERACTIVE`, `BUILTIN \ Users` và / hoặc` BUILTIN \ Authenticated Users`
 
 - __Kiểm tra xem máy có dễ bị tổn thương không:__ (Windows Server 2012 here)
 
