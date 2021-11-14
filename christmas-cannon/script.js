@@ -939,7 +939,7 @@ function introCannon()
   cannonTL.to(stage.cameraTarget, { x: 30, y: -25, z: 30 }, 0);
   cannonTL.to('#bubble', { autoAlpha: 0, y: '-=30', scale: 0.5, duration: 0.3, ease: 'power2.in' }, 0);
   cannonTL.to(steveEl, { y: '-=20', duration: 0.1, onComplete: () => {
-      steveEl.setAttribute('src', 'https://i.ibb.co/9NRCT1p/1.png');
+      steveEl.setAttribute('src', 'https://www5.0zz0.com/2021/11/14/15/776635495.png');
       textEl.textContent = "Nhưng chờ đã, tôi có cái này ";
       textHighlightEl.textContent = "Christmas Cannon!!";
       setTimeout(() => playSound('bing'), 300);
@@ -961,7 +961,7 @@ function introStart()
   cannonTL.to(stage.cameraTarget, { x: 0, y: -22, z: 0, duration: 1.4 }, 0);
   cannonTL.to('#bubble', { autoAlpha: 0, y: '-=30', scale: 0.5, duration: 0.3, ease: 'power2.in' }, 0);
   cannonTL.to(steveEl, { y: '-=20', duration: 0.1, onComplete: () => {
-      steveEl.setAttribute('src', 'https://i.ibb.co/9NRCT1p/1.png');
+      steveEl.setAttribute('src', 'https://www13.0zz0.com/2021/11/14/15/134096999.png');
       textEl.textContent = "Nhấp hoặc chạm để bắn Pháo Giáng sinh, hãy làm cho căn phòng này trở nên lễ hội hơn";
       textHighlightEl.textContent = "";
       setTimeout(() => playSound('bing'), 700);
