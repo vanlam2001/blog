@@ -17,11 +17,11 @@ title: "VanLam"
 #subtitle: blogth3pr0.github.io
 title_separator: "-"
 logo: /pics/dog.gif
-email: xth3pr0@protonmail.com
+email: vanlam1412@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
 
 #twitter_username: username
-github_username: blogth3pr0
+github_username: vanlam2001
 minimal_mistakes_skin: dark
 search: true
 
@@ -62,15 +62,15 @@ plugins:
 author:
   name   : "Lam Nguyen"
   avatar : "/pics/dog.gif"
-  bio    : "Student district 1, 2001"
+  bio    : "District 1, 2001"
   location : "VietNam"
-  email  : "xth3pr0@protonmail.com"
+  email  : "vanlam1412@gmail.com"
   links:
     - label: "HomePage"
-      url: "https://vanlam.tk"
+      url: "https://vanlam.ml"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/vanlam1412/"
+      url: "https://www.instagram.com/vanlam1412/" 
     
 
 
