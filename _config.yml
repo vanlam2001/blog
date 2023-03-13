@@ -67,10 +67,8 @@ author:
   email  : "vanlam1412@gmail.com"
   links:
     - label: "HomePage"
-      url: "https://vanlam.ml"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/vanlam1412/" 
+      url: "/index.html"
+    
     
 
 
