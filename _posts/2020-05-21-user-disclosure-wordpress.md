@@ -14,7 +14,7 @@ Việc tiết lộ thông tin nhạy cảm cho CVE-2017-5487
 
 wp-gồm/rest-api/endpoints/class-wp-rest-users-controller.php trong quá trình triển khai API REST trong WordPress 4.7 trước 4.7.1 không đúng cách hạn chế danh sách tác giả bài đăng, điều này cho phép kẻ tấn công từ xa lấy được thông tin nhạy cảm thông qua yêu cầu wp-json/wp/v2/users.
 
-Điểm cơ bản: 5,3 TRUNG BÌNH
+Mức độ lỗ hổng: 5,3 TRUNG BÌNH
 
 ## Hướng dẫn
 
