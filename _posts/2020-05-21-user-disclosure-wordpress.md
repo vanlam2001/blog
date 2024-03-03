@@ -1,12 +1,12 @@
 ---
-title: Tiền thưởng Tiết Lộ Người Dùng WordPress (CVE-2017-5487)
+title: Tiền thưởng (CVE-2017-5487)
 date: 25/03/2022
 layout: single
 header:
   teaser: /assets/images/wordpress.png
 ---
 
-## Mô Tả
+## Tiết lộ các tài khoản WordPress
 
 Tiết lộ các tài khoản WordPress thông qua `/wp-json/wp/v2/users/` sử dụng php để dump tên tài khoản, và họ tên đăng bài
 
