@@ -16,4 +16,4 @@ bundle install
 bundle exec jekyll serve
 ```
 
-https://vanlam2001.github.io
+https://vanlam2001.github.io/blog
