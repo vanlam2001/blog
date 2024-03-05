@@ -1,9 +1,3 @@
-## Gem install
-
-```shell
-gem 'webrick'
-```
-
 ## Then run
 
 ```shell
