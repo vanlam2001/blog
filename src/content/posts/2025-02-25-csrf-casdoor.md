@@ -53,7 +53,7 @@ Tổng quan về cách khắc phục
 - Cho phép các yêu cầu mang theo xác thực không phải cookie rõ ràng (ví dụ: `Authorization`, xác thực cơ bản, thông tin đăng nhập của máy khách hoặc `accessToken`) hoặc các yêu cầu không có cookie phiên trình duyệt (các cuộc gọi máy chủ-máy chủ thông thường).
 
 Cách triển khai
-- Sử dụng `routers.CSRFFilter` được triển khai trong `csrf_filter.go` [tại đây](https://github.com/casdoor/casdoor/blob/master/routers/csrf_filter.go). 
+- Sử dụng `routers.CSRFFilter` được triển khai trong `csrf_filter.go` [tại đây](https://github.com/vanlam2001/csrf_casdoor/blob/main/csrf_filter.go). 
 
 - Trả về sớm cho các phương thức không thay đổi trạng thái.
 
