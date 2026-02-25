@@ -1,0 +1,35 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection, getEntryBySlug } from "astro:content";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("posts");
+  return posts.map((post) => ({
+    params: { slug: post.slug }
+  }));
+}
+
+const { slug } = Astro.params;
+const post = await getEntryBySlug("posts", slug);
+if (!post) throw new Error(`Post not found: ${slug}`);
+const { Content } = await post.render();
+const teaser = post.data.header?.teaser ?? null;
+---
+
+<BaseLayout title={post.data.title} description={post.data.description ?? ""}>
+  <article class="post">
+    <div class="post-meta">
+      <time datetime={post.data.date.toISOString()}>
+        {post.data.date.toLocaleDateString("vi-VN")}
+      </time>
+    </div>
+    {teaser && (
+      <div class="post-cover">
+        <img src={teaser} alt={post.data.title} loading="lazy" />
+      </div>
+    )}
+    <div class="prose">
+      <Content />
+    </div>
+  </article>
+</BaseLayout>

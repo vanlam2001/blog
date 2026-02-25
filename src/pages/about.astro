@@ -1,0 +1,87 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const pageTitle = "Giới thiệu về tôi";
+---
+
+<BaseLayout title={pageTitle} description="Thông tin cá nhân và liên hệ">
+  <div class="prose about-content">
+    <p>
+      Xin chào! Tôi là <strong>Lam Nguyen</strong>, có thích thú về lỗ hổng bảo mật.
+    </p>
+
+    <p>
+      Blog này là nơi tôi chia sẻ những kiến thức, kinh nghiệm và những điều thú vị tôi học được trong quá trình làm việc và nghiên cứu.
+      Tôi quan tâm đến các chủ đề như:
+    </p>
+
+    <ul>
+      <li>An toàn thông tin & Bảo mật ứng dụng Web (AppSec)</li>
+      <li>Phân tích lỗ hổng bảo mật (CVE)</li>
+    </ul>
+
+    <h2>Kết nối với tôi</h2>
+    <p>Bạn có thể tìm thấy tôi trên các mạng xã hội sau:</p>
+
+    <div class="social-links">
+      <a href="https://www.facebook.com/vanlam1412" target="_blank" rel="noopener noreferrer" class="social-btn facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036c-2.148 0-2.971.956-2.971 3.035v.938h4.083l-1.392 3.667h-2.69v7.98c-1.243.311-2.614.311-3.843 0z"></path></svg>
+        Facebook
+      </a>
+      
+      <a href="https://www.linkedin.com/in/vanlam1412/" target="_blank" rel="noopener noreferrer" class="social-btn linkedin">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg>
+        LinkedIn
+      </a>
+    </div>
+
+  </div>
+</BaseLayout>
+
+<style>
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background: var(--surface);
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+  }
+
+  .social-links {
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+    flex-wrap: wrap;
+  }
+
+  .social-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: transform 0.2s, opacity 0.2s;
+    color: white;
+    text-decoration: none;
+  }
+
+  .social-btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+  }
+
+  .facebook {
+    background-color: #1877F2;
+  }
+
+  .linkedin {
+    background-color: #0A66C2;
+  }
+
+  .social-btn svg {
+    fill: currentColor;
+  }
+</style>

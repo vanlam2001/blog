@@ -1,0 +1,32 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const posts = await getCollection("posts");
+const sortedPosts = posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<BaseLayout title="VanLam" description="Blog bảo mật và chia sẻ kiến thức">
+  <section class="post-list">
+    {sortedPosts.map((post) => (
+      <article class="post-card">
+        {post.data.header?.teaser && (
+          <a class="post-thumb" href={`/posts/${post.slug}/`}>
+            <img src={post.data.header.teaser} alt={post.data.title} loading="lazy" />
+          </a>
+        )}
+        <div class="post-body">
+          <h2 class="post-title">
+            <a href={`/posts/${post.slug}/`}>{post.data.title}</a>
+          </h2>
+          <div class="post-meta">
+            <time datetime={post.data.date.toISOString()}>
+              {post.data.date.toLocaleDateString("vi-VN")}
+            </time>
+          </div>
+          {post.data.description && <p class="post-excerpt">{post.data.description}</p>}
+        </div>
+      </article>
+    ))}
+  </section>
+</BaseLayout>

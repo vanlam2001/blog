@@ -1,0 +1,42 @@
+---
+import "../styles/global.css";
+
+const { title, description = "" } = Astro.props;
+---
+
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+  </head>
+  <body>
+    <div class="site">
+      <header class="site-header">
+        <div class="container header-content">
+          <a class="site-title" href="/">VanLam</a>
+          <div class="site-nav">
+            <a href="/" class="nav-link">Trang chủ</a>
+            <a href="/about" class="nav-link">Giới thiệu</a>
+          </div>
+        </div>
+      </header>
+      <main class="container">
+        <section class="hero">
+          <h1 class="hero-title">{title}</h1>
+          {description && <p class="hero-subtitle">{description}</p>}
+        </section>
+        <slot />
+      </main>
+      <footer class="site-footer">
+        <div class="container footer-content">
+          <span>© {new Date().getFullYear()} VanLam</span>
+          <span class="footer-sep">•</span>
+          <a href="/">Trang chủ</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
