@@ -16,10 +16,10 @@ const { title, description = "" } = Astro.props;
     <div class="site">
       <header class="site-header">
         <div class="container header-content">
-          <a class="site-title" href="/">VanLam</a>
+          <a class="site-title" href="/blog/">VanLam</a>
           <div class="site-nav">
-            <a href="/" class="nav-link">Trang chủ</a>
-            <a href="/about" class="nav-link">Giới thiệu</a>
+            <a href="/blog/" class="nav-link">Trang chủ</a>
+            <a href="/blog/about" class="nav-link">Giới thiệu</a>
           </div>
         </div>
       </header>
@@ -34,7 +34,7 @@ const { title, description = "" } = Astro.props;
         <div class="container footer-content">
           <span>© {new Date().getFullYear()} VanLam</span>
           <span class="footer-sep">•</span>
-          <a href="/">Trang chủ</a>
+          <a href="/blog/">Trang chủ</a>
         </div>
       </footer>
     </div>

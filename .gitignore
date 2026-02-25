@@ -1,4 +1,8 @@
-_site
-.sass-cache
-.jekyll-metadata
-Gemfile.lock
+# .gitignore
+node_modules/
+dist/
+.astro/
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
