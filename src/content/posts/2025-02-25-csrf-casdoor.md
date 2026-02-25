@@ -18,6 +18,8 @@ Tóm tắt
 
 - Đã thử nghiệm trên: Windows
 
+- Proof of Concept: [csrf_casdoor](https://github.com/vanlam2001/csrf_casdoor)
+
 Tác động
 - Nếu nạn nhân đã đăng nhập vào Casdoor, một yêu cầu POST (ví dụ: `built-in/admin`) có thể thay đổi mật khẩu của nạn nhân, dẫn đến việc chiếm đoạt tài khoản.
 
@@ -51,7 +53,7 @@ Tổng quan về cách khắc phục
 - Cho phép các yêu cầu mang theo xác thực không phải cookie rõ ràng (ví dụ: `Authorization`, xác thực cơ bản, thông tin đăng nhập của máy khách hoặc `accessToken`) hoặc các yêu cầu không có cookie phiên trình duyệt (các cuộc gọi máy chủ-máy chủ thông thường).
 
 Cách triển khai
-- Sử dụng `routers.CSRFFilter` được triển khai trong `csrf_filter.go`. Bộ lọc này:
+- Sử dụng `routers.CSRFFilter` được triển khai trong `csrf_filter.go` [tại đây](https://github.com/casdoor/casdoor/blob/master/routers/csrf_filter.go). 
 
 - Trả về sớm cho các phương thức không thay đổi trạng thái.
 
