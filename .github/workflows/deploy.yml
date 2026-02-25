@@ -52,6 +52,7 @@ jobs:
       - name: Build with Astro
         run: |
           ${{ steps.detect-package-manager.outputs.runner }} astro build
+          touch dist/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
