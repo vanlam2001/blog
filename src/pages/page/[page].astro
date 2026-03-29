@@ -1,13 +1,24 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 
+export async function getStaticPaths() {
+  const posts = await getCollection("posts");
+  const sorted = posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  const perPage = 6;
+  const totalPages = Math.ceil(sorted.length / perPage);
+  return Array.from({ length: totalPages }, (_, i) => ({
+    params: { page: String(i + 1) }
+  }));
+}
+
+const POSTS_PER_PAGE = 6;
 const posts = await getCollection("posts");
 const sortedPosts = posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
-const POSTS_PER_PAGE = 6;
 const totalPages = Math.ceil(sortedPosts.length / POSTS_PER_PAGE);
-const currentPage = 1;
-const pagePosts = sortedPosts.slice(0, POSTS_PER_PAGE);
+const currentPage = Number(Astro.params.page);
+const start = (currentPage - 1) * POSTS_PER_PAGE;
+const pagePosts = sortedPosts.slice(start, start + POSTS_PER_PAGE);
 ---
 
 <BaseLayout title="VanLam" description="Blog bảo mật và chia sẻ kiến thức">
