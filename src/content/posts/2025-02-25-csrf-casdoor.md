@@ -1,11 +1,11 @@
 ---
-title: Casdoor – Cross-Site Request Forgery (CSRF)
+title: Casdoor - Tấn công giả mạo yêu cầu thay đổi mật khẩu người dùng (CSRF)
 date: 25/02/2025
 header:
   teaser: https://casdoor.org/assets/images/step4_result2-5f31450f52b9f797c8f1afcf2fd19914.png
 ---
 
-# Casdoor – Cross-Site Request Forgery (CSRF)
+# Casdoor – Tấn công giả mạo yêu cầu thay đổi mật khẩu người dùng (CSRF)
 
 Tóm tắt
 - Lỗ hổng: CSRF trong `/api/set-password` cho phép thay đổi mật khẩu mà không cần sự đồng ý.
