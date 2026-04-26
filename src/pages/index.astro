@@ -54,13 +54,13 @@ const pagePosts = sortedPosts.slice(0, POSTS_PER_PAGE);
     {pagePosts.map((post) => (
       <article class="post-card">
         {post.data.header?.teaser && (
-          <a class="post-thumb" href={`/posts/${post.slug}/`}>
+          <a class="post-thumb" href={`/posts/${post.id}/`}>
             <img src={post.data.header.teaser} alt={post.data.title} loading="lazy" />
           </a>
         )}
         <div class="post-body">
           <h2 class="post-title">
-            <a href={`/posts/${post.slug}/`}>{post.data.title}</a>
+            <a href={`/posts/${post.id}/`}>{post.data.title}</a>
           </h2>
           <div class="post-meta">
             <time datetime={post.data.date.toISOString()}>

@@ -1,4 +1,6 @@
-import { defineCollection, z } from "astro:content";
+import { defineCollection } from "astro:content";
+import { glob } from "astro/loaders";
+import { z } from "astro/zod";
 
 const parseDate = (value: unknown) => {
   if (value instanceof Date) return value;
@@ -13,7 +15,7 @@ const parseDate = (value: unknown) => {
 };
 
 const postsCollection = defineCollection({
-  type: "content",
+  loader: glob({ pattern: "**/*.md", base: "./src/content/posts" }),
   schema: z.object({
     title: z.string(),
     date: z.preprocess((value) => parseDate(value), z.date()),
