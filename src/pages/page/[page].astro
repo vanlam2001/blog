@@ -30,7 +30,7 @@ const pagePosts = sortedPosts.slice(start, start + POSTS_PER_PAGE);
       <div class="pagination-right">
         <a
           class={`pagination-prev ${currentPage === 1 ? "disabled" : ""}`}
-          href={currentPage === 1 ? "#" : `/blog/page/${currentPage - 1}/`}
+          href={currentPage === 1 ? "#" : `/page/${currentPage - 1}/`}
           aria-disabled={currentPage === 1}
         >
           ← Trang trước
@@ -43,7 +43,7 @@ const pagePosts = sortedPosts.slice(start, start + POSTS_PER_PAGE);
               ) : (
                 <a
                   class="pagination-link"
-                  href={p === 1 ? "/blog/" : `/blog/page/${p}/`}
+                  href={p === 1 ? "/" : `/page/${p}/`}
                 >
                   {p}
                 </a>
@@ -53,7 +53,7 @@ const pagePosts = sortedPosts.slice(start, start + POSTS_PER_PAGE);
         </ul>
         <a
           class={`pagination-next ${currentPage === totalPages ? "disabled" : ""}`}
-          href={currentPage === totalPages ? "#" : `/blog/page/${currentPage + 1}/`}
+          href={currentPage === totalPages ? "#" : `/page/${currentPage + 1}/`}
           aria-disabled={currentPage === totalPages}
         >
           Trang sau →
@@ -65,13 +65,13 @@ const pagePosts = sortedPosts.slice(start, start + POSTS_PER_PAGE);
     {pagePosts.map((post) => (
       <article class="post-card">
         {post.data.header?.teaser && (
-          <a class="post-thumb" href={`/blog/posts/${post.slug}/`}>
+          <a class="post-thumb" href={`/posts/${post.slug}/`}>
             <img src={post.data.header.teaser} alt={post.data.title} loading="lazy" />
           </a>
         )}
         <div class="post-body">
           <h2 class="post-title">
-            <a href={`/blog/posts/${post.slug}/`}>{post.data.title}</a>
+            <a href={`/posts/${post.slug}/`}>{post.data.title}</a>
           </h2>
           <div class="post-meta">
             <time datetime={post.data.date.toISOString()}>
