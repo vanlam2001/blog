@@ -12,7 +12,7 @@
     "preview": "astro preview"
   },
   "dependencies": {
-    "astro": "^6.1.6",
+    "astro": "^6.1.10",
     "h3": "^1.15.10",
     "smol-toml": "^1.6.1"
   }
