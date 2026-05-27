@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "astro": "^6.1.6",
+    "devalue": "^5.7.1",
     "h3": "^1.15.10",
     "smol-toml": "^1.6.1"
   }
