@@ -66,7 +66,7 @@ Cách tích hợp vào Casdoor
 2. Đăng ký bộ lọc ở đầu chuỗi xử lý HTTP (bên trong hàm `main`):
    ```go
    // Beego v1 style
-   beego.InsertFilter("/api/*", beego.BeforeRouter, routers.CSRFFilter)
+   web.InsertFilter("/api/*", web.BeforeRouter, routers.CSRFFilter)
    
    // If your project uses Beego v2 and imports as `web`:
    // web.InsertFilter("/api/*", web.BeforeRouter, routers.CSRFFilter)
